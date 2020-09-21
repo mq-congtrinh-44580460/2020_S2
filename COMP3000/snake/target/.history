@@ -1,0 +1,23 @@
+console
+compile
+run
+run > a.out
+run
+test
+run
+test
+run
+test
+run
+test
+compile
+run
+q
+test
+run
+test
+run
+test
+run
+test
+clean

@@ -1,0 +1,324 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "comp3000-ass2c",
+        "directory": "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c",
+        "workspaceDir": "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c",
+        "sources": [
+            "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala-2.12",
+            "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala",
+            "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/java",
+            "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+            "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar",
+            "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+            "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar",
+            "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/dsinfo/dsinfo_2.12/0.4.0/dsinfo_2.12-0.4.0.jar",
+            "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/dsprofile/dsprofile_2.12/0.4.0/dsprofile_2.12-0.4.0.jar",
+            "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/rogach/scallop_2.12/2.1.1/scallop_2.12-2.1.1.jar",
+            "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar",
+            "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar"
+        ],
+        "out": "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c",
+        "classesDir": "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c/scala-2.12/classes",
+        "resources": [
+            "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/resources",
+            "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.8",
+            "options": [
+                "-deprecation",
+                "-feature",
+                "-unchecked",
+                "-Xcheckinit",
+                "-Xfatal-warnings",
+                "-Xlint:-stars-align,-unused,_"
+            ],
+            "jars": [
+                "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar",
+                "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+                "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar",
+                "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar"
+            ],
+            "analysis": "/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7",
+                "options": [
+                    "-Duser.dir=/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "36b234834d8f842cdde963c8591efae6cf413e3f"
+                            },
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bitbucket.inkytonik.kiama",
+                    "name": "kiama_2.12",
+                    "version": "2.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kiama_2.12",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "7a65c2a6bf398fff97099131477808fa3a6cf431"
+                            },
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar"
+                        },
+                        {
+                            "name": "kiama_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+                            },
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "21.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "3a3d111be1be1b745edfa7d91678a12d7ed38709"
+                            },
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bitbucket.inkytonik.dsinfo",
+                    "name": "dsinfo_2.12",
+                    "version": "0.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "dsinfo_2.12",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/dsinfo/dsinfo_2.12/0.4.0/dsinfo_2.12-0.4.0.jar"
+                        },
+                        {
+                            "name": "dsinfo_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/dsinfo/dsinfo_2.12/0.4.0/dsinfo_2.12-0.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bitbucket.inkytonik.dsprofile",
+                    "name": "dsprofile_2.12",
+                    "version": "0.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "dsprofile_2.12",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/dsprofile/dsprofile_2.12/0.4.0/dsprofile_2.12-0.4.0.jar"
+                        },
+                        {
+                            "name": "dsprofile_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/dsprofile/dsprofile_2.12/0.4.0/dsprofile_2.12-0.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.rogach",
+                    "name": "scallop_2.12",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scallop_2.12",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/rogach/scallop_2.12/2.1.1/scallop_2.12-2.1.1.jar"
+                        },
+                        {
+                            "name": "scallop_2.12",
+                            "classifier": "sources",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/rogach/scallop_2.12/2.1.1/scallop_2.12-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "682d33402cdae50258afa2c0860eb54688dab610"
+                            },
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jline",
+                    "name": "jline",
+                    "version": "2.14.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jline",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "5296978fd0c28c778ddbb6e1dc0c30cadb998eca"
+                            },
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar"
+                        },
+                        {
+                            "name": "jline",
+                            "classifier": "sources",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.8",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "36b234834d8f842cdde963c8591efae6cf413e3f"
+                            },
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

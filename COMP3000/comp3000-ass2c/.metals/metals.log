@@ -1,0 +1,281 @@
+2020.09.21 19:55:39 INFO  started: Metals version 0.9.3 in workspace '/home/mrrobot1802/Documents/COMP3000/comp3000-ass2c' for client vscode.
+2020.09.21 19:55:40 INFO  time: initialize in 1.07s
+2020.09.21 19:55:44 INFO  running '/home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.3.13 -jar /tmp/metals7056074668044512112/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.09.21 19:55:45 INFO  skipping build import with status 'Started'
+2020.09.21 19:55:47 INFO  [info] Updated file /home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/project/build.properties: set sbt.version to 1.3.13
+2020.09.21 19:55:47 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.7)
+2020.09.21 19:55:50 INFO  [info] loading settings for project global-plugins from idea.sbt ...
+2020.09.21 19:55:50 INFO  [info] loading global plugins from /home/mrrobot1802/.sbt/1.0/plugins
+2020.09.21 19:55:51 INFO  running '/home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10624257734617310673/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.09.21 19:55:54 INFO  [info] loading settings for project comp3000-ass2c-build-build from metals.sbt ...
+2020.09.21 19:55:54 INFO  [info] loading project definition from /home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/project/project
+2020.09.21 19:55:56 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.7)
+2020.09.21 19:55:57 INFO  [info] loading settings for project global-plugins from idea.sbt ...
+2020.09.21 19:55:57 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.09.21 19:55:57 INFO  [info] loading settings for project comp3000-ass2c-build from metals.sbt ...
+2020.09.21 19:55:58 INFO  [info] loading global plugins from /home/mrrobot1802/.sbt/1.0/plugins
+2020.09.21 19:55:59 INFO  [info] loading project definition from /home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/project
+2020.09.21 19:56:00 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.09.21 19:56:01 INFO  [info] loading settings for project comp3000-ass2c-build-build from metals.sbt ...
+2020.09.21 19:56:01 INFO  [info] loading project definition from /home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/project/project
+2020.09.21 19:56:01 INFO  [info] loading settings for project comp3000-ass2c-build from metals.sbt ...
+2020.09.21 19:56:02 INFO  [info] loading project definition from /home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/project
+2020.09.21 19:56:02 INFO  [success] Generated .bloop/comp3000-ass2c-build.json
+2020.09.21 19:56:02 INFO  [success] Total time: 3 s, completed 21 Sep. 2020, 7:56:02 pm
+2020.09.21 19:56:06 INFO  [success] Generated .bloop/comp3000-ass2c-build.json
+2020.09.21 19:56:06 INFO  [success] Total time: 4 s, completed 21 Sep. 2020, 7:56:06 pm
+2020.09.21 19:56:06 INFO  [info] loading settings for project comp3000-ass2c from build.sbt ...
+2020.09.21 19:56:06 INFO  [info] set current project to comp3000-ass2 (in build file:/home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/)
+2020.09.21 19:56:08 INFO  [info] loading settings for project comp3000-ass2c from build.sbt ...
+2020.09.21 19:56:08 INFO  [info] set current project to comp3000-ass2 (in build file:/home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/)
+2020.09.21 19:56:38 INFO  [error] lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar) while downloading https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/.guava-21.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/.guava-21.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar) while downloading https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/.junit-4.12.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/.junit-4.12.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar) while downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar: wrong checksum: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar (expected SHA-1 5287451029166660efd3008a3350cefd2f5b3fab in /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0-tests.jar__sha1, got b9fc28c25078a21736ca52797f9e6ae0ea508a84)
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/scalacheck_2.12-1.13.5.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/.scalacheck_2.12-1.13.5.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/scalacheck_2.12-1.13.5.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/.scalacheck_2.12-1.13.5.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/scalacheck_2.12-1.13.5.jar) while downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/scalacheck_2.12-1.13.5.jar
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/scalatest_2.12-3.0.3.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/.scalatest_2.12-3.0.3.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/scalatest_2.12-3.0.3.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/.scalatest_2.12-3.0.3.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/scalatest_2.12-3.0.3.jar) while downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/scalatest_2.12-3.0.3.jar
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/.jline-2.14.3.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/.jline-2.14.3.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar) while downloading https://repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar
+2020.09.21 19:56:38 INFO  [error] 
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.Artifacts$.$anonfun$fetchArtifacts$14(Artifacts.scala:302)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.09.21 19:56:38 INFO  [error] Caused by: lmcoursier.internal.shaded.coursier.cache.ArtifactError$DownloadError: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar) while downloading https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.helper$2(FileCache.scala:1018)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.coursier$cache$FileCache$$downloading(FileCache.scala:1032)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.doDownload$1(FileCache.scala:320)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$54(FileCache.scala:507)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:59)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:84)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$32(FileCache.scala:508)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+2020.09.21 19:56:38 INFO  [error] 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+2020.09.21 19:56:38 INFO  [error] 	at scala.util.Success.map(Try.scala:213)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.09.21 19:56:38 INFO  [error] Caused by: java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar
+2020.09.21 19:56:38 INFO  [error] 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/sun.nio.fs.UnixCopyFile.move(UnixCopyFile.java:417)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/sun.nio.fs.UnixFileSystemProvider.move(UnixFileSystemProvider.java:267)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/java.nio.file.Files.move(Files.java:1421)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$46(FileCache.scala:412)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$$anon$1.call(CacheLocks.scala:22)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.paths.CachePath.withStructureLock(CachePath.java:139)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withStructureLock(CacheLocks.scala:22)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$33(FileCache.scala:410)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.$anonfun$downloading$1(FileCache.scala:998)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withUrlLock(CacheLocks.scala:102)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.helper$2(FileCache.scala:998)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.coursier$cache$FileCache$$downloading(FileCache.scala:1032)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.doDownload$1(FileCache.scala:320)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$54(FileCache.scala:507)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:59)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:84)
+2020.09.21 19:56:38 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$32(FileCache.scala:508)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+2020.09.21 19:56:38 INFO  [error] 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+2020.09.21 19:56:38 INFO  [error] 	at scala.util.Success.map(Try.scala:213)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+2020.09.21 19:56:38 INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2020.09.21 19:56:38 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.09.21 19:56:38 INFO  [error] (update) lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar) while downloading https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/.guava-21.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/.guava-21.0.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar) while downloading https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/.junit-4.12.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/.junit-4.12.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar) while downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar: wrong checksum: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar (expected SHA-1 5287451029166660efd3008a3350cefd2f5b3fab in /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0-tests.jar__sha1, got b9fc28c25078a21736ca52797f9e6ae0ea508a84)
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/scalacheck_2.12-1.13.5.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/.scalacheck_2.12-1.13.5.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/scalacheck_2.12-1.13.5.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/.scalacheck_2.12-1.13.5.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/scalacheck_2.12-1.13.5.jar) while downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.5/scalacheck_2.12-1.13.5.jar
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/scalatest_2.12-3.0.3.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/.scalatest_2.12-3.0.3.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/scalatest_2.12-3.0.3.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/.scalatest_2.12-3.0.3.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/scalatest_2.12-3.0.3.jar) while downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/scalatest_2.12-3.0.3.jar
+2020.09.21 19:56:38 INFO  [error] https://repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/.jline-2.14.3.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/.jline-2.14.3.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar) while downloading https://repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar
+2020.09.21 19:56:38 INFO  [error] Total time: 29 s, completed 21 Sep. 2020, 7:56:38 pm
+2020.09.21 19:56:38 INFO  build tool exit: 1
+2020.09.21 19:56:39 INFO  time: ran 'sbt bloopInstall' in 47s
+2020.09.21 19:56:39 ERROR sbt command failed: /home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10624257734617310673/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.09.21 19:56:39 INFO  [error] lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+2020.09.21 19:56:39 INFO  [error] https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar: wrong checksum: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar (expected SHA-1 7a65c2a6bf398fff97099131477808fa3a6cf431 in /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0.jar__sha1, got 9fca71d3b6107e69959ac48ad7894e0385fa4c94)
+2020.09.21 19:56:39 INFO  [error] https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0-tests.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0-tests.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar) while downloading https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar
+2020.09.21 19:56:39 INFO  [error] 
+2020.09.21 19:56:39 INFO  [error] 	at lmcoursier.internal.shaded.coursier.Artifacts$.$anonfun$fetchArtifacts$14(Artifacts.scala:302)
+2020.09.21 19:56:39 INFO  [error] 	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)
+2020.09.21 19:56:39 INFO  [error] 	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+2020.09.21 19:56:39 INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+2020.09.21 19:56:39 INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+2020.09.21 19:56:39 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2020.09.21 19:56:39 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2020.09.21 19:56:39 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.09.21 19:56:39 INFO  [error] Caused by: lmcoursier.internal.shaded.coursier.cache.ArtifactError$WrongChecksum: wrong checksum: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar (expected SHA-1 7a65c2a6bf398fff97099131477808fa3a6cf431 in /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0.jar__sha1, got 9fca71d3b6107e69959ac48ad7894e0385fa4c94)
+2020.09.21 19:56:39 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$validateChecksum$4(FileCache.scala:704)
+2020.09.21 19:56:39 INFO  [error] 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+2020.09.21 19:56:39 INFO  [error] 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+2020.09.21 19:56:39 INFO  [error] 	at scala.util.Success.map(Try.scala:213)
+2020.09.21 19:56:39 INFO  [error] 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+2020.09.21 19:56:39 INFO  [error] 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+2020.09.21 19:56:39 INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+2020.09.21 19:56:39 INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+2020.09.21 19:56:39 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2020.09.21 19:56:39 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2020.09.21 19:56:39 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.09.21 19:56:39 INFO  [error] (update) lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+2020.09.21 19:56:39 INFO  [error] https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar: wrong checksum: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0.jar (expected SHA-1 7a65c2a6bf398fff97099131477808fa3a6cf431 in /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0.jar__sha1, got 9fca71d3b6107e69959ac48ad7894e0385fa4c94)
+2020.09.21 19:56:39 INFO  [error] https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar: download error: Caught java.nio.file.NoSuchFileException: /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0-tests.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar (/home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/.kiama_2.12-2.1.0-tests.jar.part -> /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar) while downloading https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0/kiama_2.12-2.1.0-tests.jar
+2020.09.21 19:56:39 INFO  [error] Total time: 32 s, completed 21 Sep. 2020, 7:56:39 pm
+2020.09.21 19:56:39 INFO  build tool exit: 1
+2020.09.21 19:56:40 INFO  time: ran 'sbt bloopInstall' in 55s
+2020.09.21 19:56:40 ERROR sbt command failed: /home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.3.13 -jar /tmp/metals7056074668044512112/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.09.21 20:15:53 INFO  running '/home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals50098886121785397/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.09.21 20:15:57 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.7)
+2020.09.21 20:15:58 INFO  [info] loading settings for project global-plugins from idea.sbt ...
+2020.09.21 20:15:59 INFO  [info] loading global plugins from /home/mrrobot1802/.sbt/1.0/plugins
+2020.09.21 20:16:00 INFO  [info] loading settings for project comp3000-ass2c-build-build from metals.sbt ...
+2020.09.21 20:16:00 INFO  [info] loading project definition from /home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/project/project
+2020.09.21 20:16:00 INFO  [info] loading settings for project comp3000-ass2c-build from metals.sbt ...
+2020.09.21 20:16:00 INFO  [info] loading project definition from /home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/project
+2020.09.21 20:16:04 INFO  [success] Generated .bloop/comp3000-ass2c-build.json
+2020.09.21 20:16:04 INFO  [success] Total time: 3 s, completed 21 Sep. 2020, 8:16:04 pm
+2020.09.21 20:16:04 INFO  [info] loading settings for project comp3000-ass2c from build.sbt ...
+2020.09.21 20:16:04 INFO  [info] set current project to comp3000-ass2 (in build file:/home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/)
+2020.09.21 20:16:13 INFO  [success] Generated .bloop/comp3000-ass2c-test.json
+2020.09.21 20:16:13 INFO  [success] Generated .bloop/comp3000-ass2c.json
+2020.09.21 20:16:13 INFO  [success] Total time: 7 s, completed 21 Sep. 2020, 8:16:13 pm
+2020.09.21 20:16:13 INFO  build tool exit: 0
+2020.09.21 20:16:13 INFO  time: ran 'sbt bloopInstall' in 19s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1039856288554777696/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3-23-550c6c0a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c-test.json'
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Missing analysis file for project 'comp3000-ass2c'
+[0m[32m[D][0m Missing analysis file for project 'comp3000-ass2c-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1039856288554777696/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1039856288554777696/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.21 20:16:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8039849140823691723/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8039849140823691723/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8039849140823691723/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.21 20:16:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.09.21 20:16:16 INFO  time: connected to build server in 3.11s
+2020.09.21 20:16:16 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.21 20:16:16 INFO  time: imported build in 0.11s
+2020.09.21 20:16:22 INFO  time: indexed workspace in 5.98s
+2020.09.21 21:02:00 INFO  compiling comp3000-ass2c (3 scala sources)
+2020.09.21 21:02:07 INFO  time: compiled comp3000-ass2c in 6.8s
+2020.09.21 21:41:38 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.09.21 21:41:44 INFO  started: Metals version 0.9.3 in workspace '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c' for client vscode.
+2020.09.21 21:41:45 INFO  time: initialize in 1.39s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1154582208850911781/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c.json'
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'comp3000-ass2c', 'comp3000-ass2c-test'
+[0m[32m[D][0m Missing analysis file for project 'comp3000-ass2c'
+[0m[32m[D][0m Missing analysis file for project 'comp3000-ass2c-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1154582208850911781/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1154582208850911781/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.21 21:41:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher11983763234969849075/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher11983763234969849075/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher11983763234969849075/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.21 21:41:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.09.21 21:41:49 INFO  time: connected to build server in 0.67s
+2020.09.21 21:41:49 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.21 21:41:52 INFO  time: indexed workspace in 2.51s
+2020.09.21 21:41:54 INFO  running '/home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13377966091041942119/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.09.21 21:41:57 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.7)
+2020.09.21 21:41:57 INFO  [info] loading settings for project global-plugins from idea.sbt ...
+2020.09.21 21:41:58 INFO  [info] loading global plugins from /home/mrrobot1802/.sbt/1.0/plugins
+2020.09.21 21:42:01 INFO  [info] loading settings for project comp3000-ass2c-build-build from metals.sbt ...
+2020.09.21 21:42:01 INFO  [info] loading project definition from /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/project/project
+2020.09.21 21:42:03 INFO  [info] loading settings for project comp3000-ass2c-build from metals.sbt ...
+2020.09.21 21:42:03 INFO  [info] loading project definition from /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/project
+2020.09.21 21:42:05 INFO  [success] Generated .bloop/comp3000-ass2c-build.json
+2020.09.21 21:42:05 INFO  [success] Total time: 2 s, completed 21 Sep. 2020, 9:42:05 pm
+2020.09.21 21:42:08 INFO  [info] loading settings for project comp3000-ass2c from build.sbt ...
+2020.09.21 21:42:08 INFO  [info] set current project to comp3000-ass2 (in build file:/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/)
+2020.09.21 21:42:08 INFO  [success] Generated .bloop/comp3000-ass2c-test.json
+2020.09.21 21:42:08 INFO  [success] Generated .bloop/comp3000-ass2c.json
+2020.09.21 21:42:08 INFO  [success] Total time: 0 s, completed 21 Sep. 2020, 9:42:09 pm
+2020.09.21 21:42:09 INFO  build tool exit: 0
+2020.09.21 21:42:09 INFO  time: ran 'sbt bloopInstall' in 15s
+2020.09.21 21:42:09 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher13757882232267862130/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c.json'
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'comp3000-ass2c-test', 'comp3000-ass2c'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher13757882232267862130/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher13757882232267862130/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.21 21:42:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher11649945399922612739/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher11649945399922612739/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher11649945399922612739/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.21 21:42:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.09.21 21:42:09 INFO  time: connected to build server in 0.12s
+2020.09.21 21:42:09 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.21 21:42:11 INFO  time: indexed workspace in 1.21s
