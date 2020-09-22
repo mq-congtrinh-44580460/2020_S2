@@ -1,4 +1,4 @@
 [debug] "not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/project/project/"), "comp3000-ass2c-build-build")...
-[debug] Done updating ProjectRef(uri("file:/home/mrrobot1802/Documents/COMP3000/comp3000-ass2c/project/project/"), "comp3000-ass2c-build-build")
+[debug] Updating ProjectRef(uri("file:/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/project/project/"), "comp3000-ass2c-build-build")...
+[debug] Done updating ProjectRef(uri("file:/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/project/project/"), "comp3000-ass2c-build-build")
 [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

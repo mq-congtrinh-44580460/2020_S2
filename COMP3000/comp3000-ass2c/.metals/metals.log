@@ -279,3 +279,592 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 2020.09.21 21:42:09 INFO  time: connected to build server in 0.12s
 2020.09.21 21:42:09 INFO  Connected to Build server v1.4.3-23-550c6c0a
 2020.09.21 21:42:11 INFO  time: indexed workspace in 1.21s
+Sep. 22, 2020 8:11:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.09.22 20:14:51 INFO  compiling comp3000-ass2c (3 scala sources)
+Sep. 22, 2020 8:14:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2020.09.22 20:14:55 INFO  time: compiled comp3000-ass2c in 4.14s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 655, 655, 673)
+2020.09.22 20:47:30 INFO  compiling comp3000-ass2c-test (1 scala source)
+2020.09.22 20:47:32 INFO  time: compiled comp3000-ass2c-test in 1.74s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 657, 657, 675)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 657, 657, 675)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 724, 724, 742)
+2020.09.22 21:09:01 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:09:01 INFO  time: compiled comp3000-ass2c in 0.73s
+2020.09.22 21:09:01 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:09:03 INFO  time: compiled comp3000-ass2c in 0.37s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 587, 587, 605)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 587, 587, 605)
+2020.09.22 21:14:58 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:14:58 INFO  time: compiled comp3000-ass2c in 0.18s
+2020.09.22 21:15:27 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:15:27 INFO  time: compiled comp3000-ass2c in 0.3s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 534, 534, 552)
+Sep. 22, 2020 9:19:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 909
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 587, 587, 605)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 587, 587, 605)
+2020.09.22 21:20:05 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:20:05 INFO  time: compiled comp3000-ass2c in 0.22s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 587, 587, 605)
+2020.09.22 21:20:13 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:20:13 INFO  time: compiled comp3000-ass2c in 0.18s
+2020.09.22 21:27:29 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:27:29 INFO  time: compiled comp3000-ass2c in 81ms
+2020.09.22 21:27:36 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:27:36 INFO  time: compiled comp3000-ass2c in 0.23s
+2020.09.22 21:27:58 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:27:58 INFO  time: compiled comp3000-ass2c in 0.17s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 587, 587, 605)
+2020.09.22 21:28:35 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:28:35 INFO  time: compiled comp3000-ass2c in 0.23s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 534, 534, 552)
+2020.09.22 21:31:04 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:31:04 INFO  time: compiled comp3000-ass2c in 0.15s
+2020.09.22 21:31:27 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:31:27 INFO  time: compiled comp3000-ass2c in 0.15s
+2020.09.22 21:32:00 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:32:00 INFO  time: compiled comp3000-ass2c in 0.17s
+2020.09.22 21:32:25 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:32:25 INFO  time: compiled comp3000-ass2c in 0.17s
+2020.09.22 21:32:30 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:32:30 INFO  time: compiled comp3000-ass2c in 0.27s
+2020.09.22 21:32:45 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:32:45 INFO  time: compiled comp3000-ass2c in 0.13s
+2020.09.22 21:33:17 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:33:17 INFO  time: compiled comp3000-ass2c in 0.13s
+2020.09.22 21:33:21 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:33:21 INFO  time: compiled comp3000-ass2c in 0.2s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 587, 587, 605)
+2020.09.22 21:33:45 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:33:45 INFO  time: compiled comp3000-ass2c in 0.22s
+2020.09.22 21:34:19 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:34:19 INFO  time: compiled comp3000-ass2c in 0.14s
+2020.09.22 21:34:45 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:34:45 INFO  time: compiled comp3000-ass2c in 0.15s
+2020.09.22 21:34:54 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:34:54 INFO  time: compiled comp3000-ass2c in 0.16s
+2020.09.22 21:35:24 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:35:24 INFO  time: compiled comp3000-ass2c in 0.15s
+2020.09.22 21:35:28 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:35:28 INFO  time: compiled comp3000-ass2c in 0.12s
+2020.09.22 21:36:48 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:36:48 INFO  time: compiled comp3000-ass2c in 0.16s
+2020.09.22 21:38:23 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:38:23 INFO  time: compiled comp3000-ass2c in 0.11s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/FunLangTree.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/FunLangTree.scala, 1702, 1702, 1719)
+2020.09.22 21:42:41 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:42:41 INFO  time: compiled comp3000-ass2c in 0.13s
+2020.09.22 21:43:26 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:43:26 INFO  time: compiled comp3000-ass2c in 50ms
+2020.09.22 21:43:41 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:43:41 INFO  time: compiled comp3000-ass2c in 0.14s
+2020.09.22 21:45:38 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:45:38 INFO  time: compiled comp3000-ass2c in 0.1s
+2020.09.22 21:50:15 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:27:25: stale bloop error: value idnuse is not a member of SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]
+        "app" ^^ AppExp(factor.idnuse, Arg()) |
+                        ^^^^^^^^^^^^^
+2020.09.22 21:50:15 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:27:40: stale bloop error: not enough arguments for method apply: (idndef: funlang.FunLangTree.IdnDef, tipe: funlang.FunLangTree.Type)funlang.FunLangTree.Arg in object Arg.
+Unspecified value parameters idndef, tipe.
+        "app" ^^ AppExp(factor.idnuse, Arg()) |
+                                       ^^^^^
+2020.09.22 21:50:15 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:27:25: stale bloop error: value idnuse is not a member of SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]
+        "app" ^^ AppExp(factor.idnuse, Arg()) |
+                        ^^^^^^^^^^^^^
+2020.09.22 21:50:15 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:27:40: stale bloop error: not enough arguments for method apply: (idndef: funlang.FunLangTree.IdnDef, tipe: funlang.FunLangTree.Type)funlang.FunLangTree.Arg in object Arg.
+Unspecified value parameters idndef, tipe.
+        "app" ^^ AppExp(factor.idnuse, Arg()) |
+                                       ^^^^^
+2020.09.22 21:50:42 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:50:42 INFO  time: compiled comp3000-ass2c in 36ms
+2020.09.22 21:54:07 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:54:07 INFO  time: compiled comp3000-ass2c in 36ms
+2020.09.22 21:54:18 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:54:18 INFO  time: compiled comp3000-ass2c in 69ms
+2020.09.22 21:54:24 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 21:54:24 INFO  time: compiled comp3000-ass2c in 0.51s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 753, 753, 778)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 753, 753, 771)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 753, 753, 778)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 753, 753, 776)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 753, 753, 769)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 753, 753, 771)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 753, 753, 771)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 753, 753, 771)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1088, 1088, 1116)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1088, 1088, 1116)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1088, 1088, 1106)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1088, 1088, 1116)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1088, 1088, 1116)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1088, 1088, 1106)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1088, 1088, 1106)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1088, 1088, 1106)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1094, 1094, 1112)
+2020.09.22 22:00:25 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+Sep. 22, 2020 10:00:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy11.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:79)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:75)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+No more data in the server stdin, exiting...
+2020.09.22 22:00:35 INFO  started: Metals version 0.9.3 in workspace '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c' for client vscode.
+2020.09.22 22:00:37 INFO  time: initialize in 1.37s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher15426259684126400950/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.09.22 22:00:37 INFO  no build target: using presentation compiler with only scala-library
+2020.09.22 22:00:38 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher15426259684126400950/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher15426259684126400950/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.22 22:00:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher16123456894588877493/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher16123456894588877493/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher16123456894588877493/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.22 22:00:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.09.22 22:00:38 INFO  time: connected to build server in 0.67s
+2020.09.22 22:00:38 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.22 22:00:43 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:00:44 INFO  time: indexed workspace in 5.61s
+2020.09.22 22:00:44 INFO  time: compiled comp3000-ass2c in 1.52s
+2020.09.22 22:00:44 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:00:44 INFO  time: compiled comp3000-ass2c in 28ms
+2020.09.22 22:00:44 INFO  compiling comp3000-ass2c (1 scala source)
+Sep. 22, 2020 10:00:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2020.09.22 22:00:44 INFO  time: compiled comp3000-ass2c in 0.44s
+2020.09.22 22:00:44 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:00:45 INFO  time: compiled comp3000-ass2c in 0.52s
+2020.09.22 22:00:54 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:00:54 INFO  time: compiled comp3000-ass2c in 0.18s
+2020.09.22 22:01:08 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:01:08 INFO  time: compiled comp3000-ass2c in 0.11s
+2020.09.22 22:01:23 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:01:23 INFO  time: compiled comp3000-ass2c in 0.2s
+2020.09.22 22:01:37 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:01:37 INFO  time: compiled comp3000-ass2c in 0.14s
+2020.09.22 22:01:48 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:46:5: stale bloop error: block is already defined as lazy value block
+> lazy val block : PackratParser[Exp] =
+>         "{" ^^^ BlockExp(Vector(), IntExp(0))
+2020.09.22 22:01:48 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:43:49: stale bloop error: type mismatch;
+ found   : SyntaxAnalysis.this.Parser[funlang.FunLangTree.IdnDef ~ String]
+ required: SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]
+    lazy val definitions : PackratParser[Exp] = idndef ~ "("
+                                                ^^^^^^^^^^^^
+2020.09.22 22:01:48 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:46:5: stale bloop error: block is already defined as lazy value block
+> lazy val block : PackratParser[Exp] =
+>         "{" ^^^ BlockExp(Vector(), IntExp(0))
+2020.09.22 22:01:48 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:43:49: stale bloop error: type mismatch;
+ found   : SyntaxAnalysis.this.Parser[funlang.FunLangTree.IdnDef ~ String]
+ required: SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]
+    lazy val definitions : PackratParser[Exp] = idndef ~ "("
+                                                ^^^^^^^^^^^^
+2020.09.22 22:01:48 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:46:5: stale bloop error: block is already defined as lazy value block
+> lazy val block : PackratParser[Exp] =
+>         "{" ^^^ BlockExp(Vector(), IntExp(0))
+2020.09.22 22:01:48 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:43:49: stale bloop error: type mismatch;
+ found   : SyntaxAnalysis.this.Parser[funlang.FunLangTree.IdnDef ~ String]
+ required: SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]
+    lazy val definitions : PackratParser[Exp] = idndef ~ "("
+                                                ^^^^^^^^^^^^
+2020.09.22 22:01:48 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:46:5: stale bloop error: block is already defined as lazy value block
+> lazy val block : PackratParser[Exp] =
+>         "{" ^^^ BlockExp(Vector(), IntExp(0))
+2020.09.22 22:01:48 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:43:49: stale bloop error: type mismatch;
+ found   : SyntaxAnalysis.this.Parser[funlang.FunLangTree.IdnDef ~ String]
+ required: SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]
+    lazy val definitions : PackratParser[Exp] = idndef ~ "("
+                                                ^^^^^^^^^^^^
+2020.09.22 22:01:49 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:01:49 INFO  time: compiled comp3000-ass2c in 0.14s
+2020.09.22 22:01:59 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:01:59 INFO  time: compiled comp3000-ass2c in 0.16s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1293, 1293, 1311)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 753, 753, 771)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1218, 1218, 1236)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1218, 1218, 1236)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1218, 1218, 1236)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1048, 1048, 1066)
+2020.09.22 22:22:13 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:46:5: stale bloop error: block is already defined as lazy value block
+> lazy val block : PackratParser[Exp] =
+>         "{" ^^^ BlockExp(Vector(), IntExp(0))
+2020.09.22 22:22:15 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:46:5: stale bloop error: block is already defined as lazy value block
+> lazy val block : PackratParser[Exp] =
+>         "{" ^^^ BlockExp(Vector(), IntExp(0))
+2020.09.22 22:23:14 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:23:14 INFO  time: compiled comp3000-ass2c in 0.16s
+2020.09.22 22:23:41 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:23:41 INFO  time: compiled comp3000-ass2c in 73ms
+2020.09.22 22:23:54 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:23:54 INFO  time: compiled comp3000-ass2c in 0.12s
+2020.09.22 22:24:39 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:24:39 INFO  time: compiled comp3000-ass2c in 0.13s
+2020.09.22 22:24:45 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:24:45 INFO  time: compiled comp3000-ass2c in 52ms
+2020.09.22 22:25:24 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:25:24 INFO  time: compiled comp3000-ass2c in 0.16s
+2020.09.22 22:25:38 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:25:38 INFO  time: compiled comp3000-ass2c in 0.21s
+2020.09.22 22:27:05 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:27:05 INFO  time: compiled comp3000-ass2c in 0.13s
+2020.09.22 22:27:20 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:27:20 INFO  time: compiled comp3000-ass2c in 0.11s
+Sep. 22, 2020 10:29:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1078
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1112, 1112, 1137)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1112, 1112, 1135)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1112, 1112, 1128)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1112, 1112, 1136)
+2020.09.22 22:29:26 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:29:26 INFO  time: compiled comp3000-ass2c in 40ms
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1112, 1112, 1136)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1112, 1112, 1136)
+2020.09.22 22:29:29 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:29:29 INFO  time: compiled comp3000-ass2c in 29ms
+2020.09.22 22:29:35 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:29:35 INFO  time: compiled comp3000-ass2c in 0.11s
+2020.09.22 22:29:37 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:29:37 INFO  time: compiled comp3000-ass2c in 0.14s
+2020.09.22 22:30:39 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:30:39 INFO  time: compiled comp3000-ass2c in 0.14s
+2020.09.22 22:31:29 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:31:29 INFO  time: compiled comp3000-ass2c in 0.12s
+2020.09.22 22:31:29 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:31:29 INFO  time: compiled comp3000-ass2c in 0.1s
+2020.09.22 22:32:37 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:32:37 INFO  time: compiled comp3000-ass2c in 0.1s
+2020.09.22 22:32:44 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:32:44 INFO  time: compiled comp3000-ass2c in 0.12s
+2020.09.22 22:32:54 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:32:54 INFO  time: compiled comp3000-ass2c in 94ms
+2020.09.22 22:33:00 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:33:00 INFO  time: compiled comp3000-ass2c in 0.11s
+2020.09.22 22:33:00 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:33:00 INFO  time: compiled comp3000-ass2c in 86ms
+2020.09.22 22:33:00 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:33:00 INFO  time: compiled comp3000-ass2c in 0.12s
+2020.09.22 22:33:07 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:33:07 INFO  time: compiled comp3000-ass2c in 95ms
+2020.09.22 22:33:16 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:33:16 INFO  time: compiled comp3000-ass2c in 88ms
+2020.09.22 22:34:43 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:34:43 INFO  time: compiled comp3000-ass2c in 97ms
+2020.09.22 22:35:00 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:35:00 INFO  time: compiled comp3000-ass2c in 0.45s
+2020.09.22 22:35:35 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:35:35 INFO  time: compiled comp3000-ass2c in 40ms
+2020.09.22 22:36:53 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:43:14: stale bloop error: lazy values may not be abstract
+    lazy val cond : PackratParser[Exp]
+             ^
+2020.09.22 22:36:53 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala:43:14: stale bloop error: lazy values may not be abstract
+    lazy val cond : PackratParser[Exp]
+             ^
+2020.09.22 22:38:39 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:38:39 INFO  time: compiled comp3000-ass2c in 0.11s
+2020.09.22 22:38:54 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:38:54 INFO  time: compiled comp3000-ass2c in 0.11s
+2020.09.22 22:38:54 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:38:54 INFO  time: compiled comp3000-ass2c in 0.12s
+2020.09.22 22:39:47 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:39:47 INFO  time: compiled comp3000-ass2c in 0.11s
+2020.09.22 22:39:55 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:39:55 INFO  time: compiled comp3000-ass2c in 0.11s
+2020.09.22 22:41:37 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:41:37 INFO  time: compiled comp3000-ass2c in 0.1s
+2020.09.22 22:41:48 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:41:48 INFO  time: compiled comp3000-ass2c in 0.11s
+2020.09.22 22:46:16 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:46:16 INFO  time: compiled comp3000-ass2c in 0.1s
+2020.09.22 22:48:44 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:48:44 INFO  time: compiled comp3000-ass2c in 95ms
+2020.09.22 22:49:01 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 22:49:01 INFO  time: compiled comp3000-ass2c in 0.11s
+2020.09.22 22:51:10 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.09.22 22:51:35 INFO  started: Metals version 0.9.4 in workspace '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c' for client vscode.
+2020.09.22 22:51:37 INFO  time: initialize in 1.19s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher816133142188317997/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.09.22 22:51:37 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher816133142188317997/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher816133142188317997/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.22 22:51:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.09.22 22:51:41 INFO  no build target: using presentation compiler with only scala-library
+2020.09.22 22:51:41 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala
+2020.09.22 22:51:41 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/FunLangTree.scala
+2020.09.22 22:51:41 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala
+Sep. 22, 2020 10:51:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Sep. 22, 2020 10:51:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2020.09.22 22:51:43 ERROR Timeout waiting for 'build/initialize' response
+2020.09.22 22:51:43 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:317)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:252)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.09.22 22:57:21 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala
+2020.09.22 22:57:30 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala
+Sep. 22, 2020 10:57:47 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:663)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:423)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:443)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Sep. 22, 2020 10:57:47 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:663)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:423)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:443)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Sep. 22, 2020 10:57:47 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:663)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:423)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:443)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.09.22 22:58:02 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala
+2020.09.22 22:58:20 INFO  running '/home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals9318987350817578436/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.09.22 22:58:21 INFO  skipping build import with status 'Started'
+2020.09.22 22:58:24 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.7)
+2020.09.22 22:58:25 INFO  [info] loading settings for project global-plugins from idea.sbt ...
+2020.09.22 22:58:26 INFO  [info] loading global plugins from /home/mrrobot1802/.sbt/1.0/plugins
+2020.09.22 22:58:31 INFO  [info] loading settings for project comp3000-ass2c-build-build from metals.sbt ...
+2020.09.22 22:58:31 INFO  [info] loading project definition from /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/project/project
+2020.09.22 22:58:37 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.09.22 22:58:37 INFO  [info] loading settings for project comp3000-ass2c-build from metals.sbt ...
+2020.09.22 22:58:38 INFO  [info] loading project definition from /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/project
+2020.09.22 22:58:40 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.09.22 22:58:40 INFO  [success] Generated .bloop/comp3000-ass2c-build.json
+2020.09.22 22:58:40 INFO  [success] Total time: 2 s, completed 22 Sep. 2020, 10:58:40 pm
+2020.09.22 22:58:44 INFO  [info] loading settings for project comp3000-ass2c from build.sbt ...
+2020.09.22 22:58:44 INFO  [info] set current project to comp3000-ass2 (in build file:/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/)
+2020.09.22 22:58:44 INFO  [success] Generated .bloop/comp3000-ass2c-test.json
+2020.09.22 22:58:44 INFO  [success] Generated .bloop/comp3000-ass2c.json
+2020.09.22 22:58:44 INFO  [success] Total time: 0 s, completed 22 Sep. 2020, 10:58:44 pm
+2020.09.22 22:58:45 INFO  time: ran 'sbt bloopInstall' in 24s
+2020.09.22 22:58:45 INFO  build tool exit: 0
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher16989935676946029346/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher16989935676946029346/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher16989935676946029346/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.22 22:58:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher11395596607139549127/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher11395596607139549127/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher11395596607139549127/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.22 22:58:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.09.22 22:58:49 INFO  time: connected to build server in 3.99s
+2020.09.22 22:58:49 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.22 22:58:50 INFO  time: indexed workspace in 1.62s
+2020.09.22 22:58:51 INFO  compiling comp3000-ass2c (3 scala sources)
+2020.09.22 22:58:55 INFO  time: compiled comp3000-ass2c in 4s
+2020.09.22 22:59:03 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher14032955655915599506/bsp.socket'...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c-test.json'
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'comp3000-ass2c-test', 'comp3000-ass2c'
+[0m[32m[D][0m Loading previous analysis for 'comp3000-ass2c-test' from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'comp3000-ass2c' from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher14032955655915599506/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher14032955655915599506/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.22 22:59:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12543680525070049590/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12543680525070049590/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12543680525070049590/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.22 22:59:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.09.22 22:59:10 INFO  time: connected to build server in 6.97s
+2020.09.22 22:59:10 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.09.22 22:59:10 INFO  time: imported build in 0.13s
+2020.09.22 22:59:10 ERROR code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala' because the SemanticDB file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/.bloop/comp3000-ass2c/bloop-bsp-clients-classes/classes-Metals-G1vc-sSTSNaKRx1CX2ucsA==/META-INF/semanticdb/src/main/scala/SyntaxAnalysis.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.09.22 22:59:12 INFO  time: indexed workspace in 1.86s
+2020.09.22 22:59:13 INFO  compiling comp3000-ass2c (3 scala sources)
+2020.09.22 22:59:18 INFO  time: compiled comp3000-ass2c in 5.14s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 726, 726, 744)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 909, 909, 927)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 972, 972, 990)
+2020.09.22 22:59:50 INFO  compiling comp3000-ass2c (3 scala sources)
+2020.09.22 22:59:52 INFO  time: compiled comp3000-ass2c in 1.27s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 980, 980, 998)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 980, 980, 998)
+2020.09.22 23:00:20 INFO  compiling comp3000-ass2c (3 scala sources)
+2020.09.22 23:00:25 INFO  time: compiled comp3000-ass2c in 5.25s
+Sep. 22, 2020 11:01:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1271
+2020.09.22 23:01:07 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 23:01:07 INFO  time: compiled comp3000-ass2c in 0.85s
+2020.09.22 23:01:18 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 23:01:18 INFO  time: compiled comp3000-ass2c in 0.35s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 912, 912, 930)
+2020.09.22 23:01:22 INFO  compiling comp3000-ass2c (1 scala source)
+Sep. 22, 2020 11:01:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1401
+2020.09.22 23:01:23 INFO  time: compiled comp3000-ass2c in 1.12s
+2020.09.22 23:01:34 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 23:01:34 INFO  time: compiled comp3000-ass2c in 0.22s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 1106, 1106, 1124)
+Sep. 22, 2020 11:01:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1500
+2020.09.22 23:02:10 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 23:02:10 INFO  time: compiled comp3000-ass2c in 0.19s
+2020.09.22 23:02:18 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 23:02:18 INFO  time: compiled comp3000-ass2c in 0.81s
+2020.09.22 23:02:26 INFO  compiling comp3000-ass2c (1 scala source)
+2020.09.22 23:02:26 INFO  time: compiled comp3000-ass2c in 0.76s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/main/scala/SyntaxAnalysis.scala, 587, 587, 605)
+Sep. 22, 2020 11:12:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
