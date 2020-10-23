@@ -23,31 +23,52 @@ class SyntaxAnalysis (positions : Positions) extends Parsers (positions) {
     lazy val program : PackratParser[Exp] =
         exp
 
-    lazy val exp : PackratParser[Exp] =
-        app |
-        conditional |
-        calcPnM |
-        calcMnD |
-        // block | 
-        factor
-    
-    lazy val conditional : PackratParser[Exp] = 
-        exp ~ ("==" ~> exp) ^^ {case e1 ~ e2 => EqualExp(e1, e2)} |
-        exp ~ ("<" ~> exp) ^^ {case e1 ~ e2 => LessExp(e1, e2)}
+    lazy val exp : PackratParser[Exp] = cond
+        // block |
+        // app |
+        // calcMnD | 
+        // calcPnM |
+        // conditional |
+        // cond |
+        // factor 
+
+    // lazy val block : PackratParser[Exp] =
+    //     "{" ~> rep(definitions) ~ (block <~ "}") ^^ {case _1 ~ _2 => BlockExp(_1, _2)} |
+    //     app
+
+    // lazy val app : PackratParser[Exp] = 
+    //     idnuse ~ ("(" ~> app <~ ")")  ^^ {case _1 ~ _2 => AppExp(_1, _2)} |
+    //     cond
         
+    lazy val cond : PackratParser[Exp] = 
+        ("if" ~> "(" ~> conditional <~ ")") ~ ("then" ~> conditional) ~ ("else" ~> conditional)^^ 
+            {case e1 ~ e2 ~ e3 => IfExp(e1, e2, e3)} |
+        conditional
+
+    lazy val conditional : PackratParser[Exp] = 
+        calcPnM ~ ("==" ~> calcPnM) ^^ {case _1 ~ _2 => EqualExp(_1, _2)} |
+        calcPnM ~ ("<" ~> calcPnM) ^^ {case _1 ~ _2 => LessExp(_1, _2)} |
+        calcPnM
+
     lazy val calcPnM : PackratParser[Exp] = 
-        exp ~ ("+" ~> exp) ^^ {case e1 ~ e2 => PlusExp(e1, e2)} |
-        exp ~ ("-" ~> exp) ^^ {case e1 ~ e2 => MinusExp(e1, e2)}
+        calcPnM ~ ("+" ~> calcMnD) ^^ {case _1 ~ _2 => PlusExp(_1, _2)} |
+        calcPnM ~ ("-" ~> calcMnD) ^^ {case _1 ~ _2 => MinusExp(_1, _2)} |
+        calcMnD
 
     lazy val calcMnD : PackratParser[Exp] = 
-        exp ~ ("*" ~> exp) ^^ {case e1 ~ e2 => StarExp(e1, e2)} |
-        exp ~ ("/" ~> exp) ^^ {case e1 ~ e2 => SlashExp(e1, e2)}
+        calcMnD ~ ("*" ~> factor) ^^ {case _1 ~ _2 => StarExp(_1, _2)} |
+        calcMnD ~ ("/" ~> factor) ^^ {case _1 ~ _2 => SlashExp(_1, _2)} |
+        factor
+
+    lazy val block : PackratParser[Exp] =
+        "{" ~> definitions ~ (exp <~ "}") ^^ {case _1 ~ _2 => BlockExp(_1, _2)} 
 
     lazy val app : PackratParser[Exp] = 
-        (idnuse ~ ("(" ~> exp <~ ")") ) ^^ {case i ~ e => AppExp(i, e)}
+        idnuse ~ ("(" ~> exp <~ ")")  ^^ {case _1 ~ _2 => AppExp(_1, _2)} 
 
-
-    lazy val factor : PackratParser[Exp] =
+    lazy val factor : PackratParser[Exp] = 
+        block |
+        app |
         "false" ^^ (_ => BoolExp (false)) |
         "true" ^^ (_ => BoolExp (true)) |
         idnuse |
@@ -55,27 +76,35 @@ class SyntaxAnalysis (positions : Positions) extends Parsers (positions) {
         "(" ~> exp <~ ")" |
         failure ("exp expected")
 
-    lazy val cond : PackratParser[Exp] = 
-        (("if" ~> "(" ~> exp <~ ")") ~ ("then" ~> exp <~ "else") ~ exp) ^^ 
-            {case e1 ~ e2 ~ e3 => IfExp(e1, e2, e3)}
+    lazy val definitions : PackratParser[Vector[DefnGroup]] = rep1(defngroup)
 
-    // lazy val definitions : PackratParser[DefnGroup] = defngroup+
-
-    // lazy val defngroup : PackratParser[Fun] = (fundefn+)
+    lazy val defngroup : PackratParser[DefnGroup] = fundefn |
+        valdefn
     // NOTE: the second lines for block, valdefn, fundefn, tipe need to be
     //       completely replaced; they are there just to keep the compiler quiet
-    // lazy val block : PackratParser[Exp] =
-    //     ("{" ~> definitions ~ exp <~"}") ^^ 
-    //     {case d ~ e => BlockExp(d, e)}  // FIXME
 
     lazy val valdefn : PackratParser[Val] =
-        "val" ^^^ Val(IdnDef("fred"), IntExp(0)) // FIXME
+        ("val" ~> idndef <~ "=") ~ exp ^^ {case _1 ~ _2 => Val(_1, _2)}
 
-    lazy val fundefn : PackratParser[Fun] =
-        "def" ^^^ Fun(IdnDef("mary"), Arg(IdnDef("joe"), IntType()), IntExp(0)) // FIXME
+    lazy val fundefn : PackratParser[DefnGroup] =
+        rep1(fun) ^^ {case _1 => FunGroup(_1)} 
+
+    lazy val fun : PackratParser[Fun] = 
+        ("def" ~> idndef <~ "(") ~ (arg <~ ")") ~ ("=" ~> exp) ^^ 
+            {case _1 ~ _2 ~ _3 => Fun(_1, _2, _3)}
+
+    lazy val arg : PackratParser[Arg] = 
+        idndef ~ (":" ~> function) ^^ 
+            {case _1 ~ _2 => Arg(_1, _2)}
+    
+    lazy val function : PackratParser[Type] =
+        (tipe <~ "=>") ~ function ^^ 
+            {case _1 ~ _2 => FunType(_1, _2)} | tipe
 
     lazy val tipe : PackratParser[Type] =
-        "some type" ^^^ IntType()
+        "Bool" ^^^ BoolType() |
+        "Int" ^^^ IntType() |
+        "(" ~> tipe <~ ")" 
 
     // NOTE: You should not need to change anything below here...
 

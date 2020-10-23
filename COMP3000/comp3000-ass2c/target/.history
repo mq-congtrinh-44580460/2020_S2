@@ -1,0 +1,122 @@
+run test/block.run
+run block.run
+run test/lock.run
+run test/funcion.run
+test
+;s
+ls
+quit
+:quit
+/quit
+run test/block.fun
+run test/function.fun
+run test/block.fun
+test
+run test/block.fun
+run test/simple.fun
+run test/block.fun
+test
+run test/block.fun
+run test/simp;e
+run test/simple
+run test/simple.fun
+run test/simple
+run test/block.fun
+test
+run test/block.fun
+run test/simple
+run test/simple.fun
+run test/function.fun
+run test/nesting.fun
+run test/simple.fun
+run test/nesting.fun
+run test/function.fun
+test
+run test/function.fun
+run test/nesting.fun
+run test/simple.fun
+test
+run test/nesting.fun
+run test/simple.fun
+run test/function.fun
+run test/simple.fun
+test
+run test/simple.fun
+test
+run test/simple.fun
+run test/nesting.fun
+run test/simple.fun
+run test/nesting.fun
+run test/simple.fun
+test
+run test/simple.fun
+test
+run test/simple.fun
+run test/nesting.fun
+run test/function.fun
+run test/block.fun
+run test/nesting.fun
+run test/block.fun
+run test/nesting.fun
+test
+run test/nesting.fun
+run test/function.fun
+run test/nesting.fun
+run test/block.fun
+run test/function.fun
+run test/block.fun
+test
+run test/block.fun
+run test/function.fun
+test
+run test/cond.fun
+run test/block.fun
+run test/nestedBlock.fun
+test
+run test/tipeTest.fun
+run test/block.fun
+test
+run test/block.fun
+test
+run test/tipeTest.fun
+run test/simple.fun
+run test/tipeTest.fun
+test
+run test/simple.fun
+test
+run test/simple.fun
+test
+run test/simple.fun
+test ("parsing nested plus and minue expressions produces the correct tree") {
+        exp ("1 + 1 - 5 + 3") should parseTo[FunLangNode] (PlusExp(MinusExp (PlusExp (IntExp (1), IntExp (1)), IntExp (5)), IntExp (3)))
+run test/simple.fun
+test
+run test/simple.fun
+LessExp (
+    IntExp (10),
+run test/simple.fun
+test
+run test/nestedBlock.fun
+test
+run test/simple.fun
+test
+run test/simple.fun
+test
+run test/block.fun
+run test/tipeTest.fun
+run test/app.fun
+run test/simple.fun
+run test/cond.fun
+run test/simple.fun
+test
+run test/simple.fun
+run test/block.fun
+test
+run test/nestedBlock.fun
+run test/simple.fun
+test
+run test/cond.fun
+test
+run test/combo.fun
+run test/app.fun
+test

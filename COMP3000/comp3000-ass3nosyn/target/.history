@@ -1,0 +1,35 @@
+compile
+test
+compile
+test
+compile
+test
+exit
+test
+run test/function.fun
+compile
+run test/function.fun
+test
+compile
+test
+compile
+test
+run test/function.fun
+compile
+run test/function.fun
+compile
+run test/function.fun
+compile
+run test/function.fun
+test
+run test/function.fun
+test
+compile
+test
+clean
+test
+clean
+test
+exit
+clean
+exit

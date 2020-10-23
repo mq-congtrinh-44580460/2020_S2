@@ -1,0 +1,60 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSyntaxAnalysisTests in library/src/test/scala/funlang:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an identifier of one letter produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an identifier as an identifier produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an identifier containing digits and underscores produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an integer as an identifier gives an error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-identifier as an identifier gives an error (digit)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-identifier as an identifier gives an error (underscore)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a keyword as an identifier gives an error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a keyword prefix as an identifier produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an integer of one digit as an integer produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an integer as an integer produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-integer as an integer gives an error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an equal expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a less than expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an addition expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a subtraction expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a multiplication expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a division expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an integer expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a true expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a false expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an identifier expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a parenthesized expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an application expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an if expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-identifier as an identifier gives an error (star)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-identifier as an identifier gives an error (hyphen)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-identifier as an identifier gives an error (@)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a negative integer of one digit as an integer produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a float gives an error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a float to exp should give an error but it does not[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a negative to exp should give an error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-identifier as an exp gives an error (@)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an if expression with conditional expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an if expression with integer expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an if, block and start expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an nested if, block and star expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing plus expresion with cond and start expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing plus expresion with cond and start expression produces the correct tree workaround[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested equal expressions gives error with workaround[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested equal expressions gives partial correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested equal, +, * expressions gives correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested plus and minus expressions produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested plus, minus, start, slash expressions produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested equal, less, plus, minus, start, slash expressions produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing block expressions produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested block expressions produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested block expressions gives error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing normal app expression with idnuse f and idnuse g expressions produce correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing normal app expression with idnuse f and integer 0 expressions produce correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing normal app expression with integer 2 and integer 0 expressions produce partial correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing normal app expression with integer 2 and integer 0 expressions gives error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested app expressions produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested block, app expressions produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a block expression with one val expression, two function definitions and one expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a block expression with one val expression, one function definition and one expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a block expression with 2 val expression, one function definition and one expression gives error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a block expression with one invalid val expression, one function definition and one expression gives error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested tipe functions produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing nested tipe functions with bracket produces the correct tree[0m[0m

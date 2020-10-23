@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass2c/src/test/scala/SyntaxAnalysisTests.scala:285:110: value not is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        parsers.parse(parsers.parser,testApp0) should failParseAt[FunLangNode] (1,2, "end of input expected" not "'<' expected but '(' found")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

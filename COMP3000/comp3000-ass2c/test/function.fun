@@ -1,5 +1,5 @@
 {
   val x = 100
-  def inc (a : Int) = a + 1
-  inc (x)
+  def 0 (a : Int) = x + a
+  0(x)
 }
