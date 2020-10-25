@@ -1,0 +1,2344 @@
+2020.10.23 19:35:18 INFO  started: Metals version 0.9.4 in workspace '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn' for client vscode.
+2020.10.23 19:35:20 INFO  time: initialize in 1.86s
+2020.10.23 19:35:26 INFO  running '/home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.3.13 -jar /tmp/metals12462977328043068989/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.10.23 19:35:27 INFO  skipping build import with status 'Started'
+2020.10.23 19:35:29 INFO  [info] Updated file /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/project/build.properties: set sbt.version to 1.3.13
+2020.10.23 19:35:29 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.7)
+2020.10.23 19:35:33 INFO  [info] loading settings for project global-plugins from idea.sbt ...
+2020.10.23 19:35:33 INFO  [info] loading global plugins from /home/mrrobot1802/.sbt/1.0/plugins
+2020.10.23 19:35:34 INFO  [warn] sbt-1.3.13.jar no longer exists at /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.3.13/sbt-1.3.13.jar
+2020.10.23 19:40:36 INFO  [info] loading settings for project comp3000-ass3nosyn-build-build from metals.sbt ...
+2020.10.23 19:40:36 INFO  [info] loading project definition from /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/project/project
+2020.10.23 19:40:46 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.10.23 19:40:46 INFO  [info] loading settings for project comp3000-ass3nosyn-build from metals.sbt ...
+2020.10.23 19:40:46 INFO  [info] loading project definition from /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/project
+2020.10.23 19:40:48 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.10.23 19:40:53 INFO  [success] Generated .bloop/comp3000-ass3nosyn-build.json
+2020.10.23 19:40:53 INFO  [success] Total time: 6 s, completed 23 Oct. 2020, 7:40:53 pm
+2020.10.23 19:40:53 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.10.23 19:40:55 INFO  [info] loading settings for project comp3000-ass3nosyn from build.sbt ...
+2020.10.23 19:40:55 INFO  [info] set current project to comp3000-ass3 (in build file:/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/)
+2020.10.23 19:41:24 INFO  [success] Generated .bloop/comp3000-ass3nosyn-test.json
+2020.10.23 19:41:24 INFO  [success] Generated .bloop/comp3000-ass3nosyn.json
+2020.10.23 19:41:24 INFO  [success] Total time: 29 s, completed 23 Oct. 2020, 7:41:24 pm
+2020.10.23 19:41:24 INFO  build tool exit: 0
+2020.10.23 19:41:24 INFO  time: ran 'sbt bloopInstall' in 5m58s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4066653346736605835/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Java executable was not available on PATH, retrying with /home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn-test.json'
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Missing analysis file for project 'comp3000-ass3nosyn-test'
+[0m[32m[D][0m Missing analysis file for project 'comp3000-ass3nosyn'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4066653346736605835/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4066653346736605835/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.23 19:41:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.10.23 19:41:56 ERROR Timeout waiting for 'build/initialize' response
+2020.10.23 19:41:56 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:317)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:252)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+Oct. 23, 2020 8:06:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.10.23 20:18:30 INFO  shutting down Metals
+2020.10.23 20:20:32 INFO  started: Metals version 0.9.4 in workspace '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn' for client vscode.
+2020.10.23 20:20:34 INFO  time: initialize in 2.06s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher907451360484303081/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.10.23 20:20:34 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher907451360484303081/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher907451360484303081/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.23 20:20:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher18174917483112608269/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher18174917483112608269/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher18174917483112608269/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.23 20:20:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.10.23 20:20:41 ERROR Timeout waiting for 'build/initialize' response
+2020.10.23 20:20:41 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:317)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:252)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.10.23 20:22:03 INFO  no build target: using presentation compiler with only scala-library
+2020.10.23 20:22:03 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+Oct. 23, 2020 8:22:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Oct. 23, 2020 8:34:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.10.23 20:36:57 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+Oct. 23, 2020 8:46:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.10.23 20:47:10 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SECMachine.scala
+2020.10.23 20:47:35 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SECTree.scala
+2020.10.23 20:48:37 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SECMachine.scala
+2020.10.23 20:49:20 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala
+2020.10.23 20:52:38 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/FunLangTree.scala
+Oct. 23, 2020 8:54:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: offset 2375, count -2, length 2616
+java.lang.StringIndexOutOfBoundsException: offset 2375, count -2, length 2616
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3304)
+	at java.base/java.lang.String.rangeCheck(String.java:280)
+	at java.base/java.lang.String.<init>(String.java:276)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:376)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:374)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:199)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:273)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.10.23 20:54:59 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.23 20:55:44 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SymbolTable.scala
+2020.10.23 20:57:47 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 20:58:16 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 20:58:16 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:00:35 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+Oct. 23, 2020 9:00:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1285
+2020.10.23 21:00:44 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:01:03 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.23 21:06:44 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/test/scala/ExecTests.scala
+2020.10.23 21:06:50 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/test/scala/SemanticTests.scala
+2020.10.23 21:08:38 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:08:38 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:15:14 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:15:58 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.23 21:20:23 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:20:26 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:20:55 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:20:55 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:21:17 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:21:17 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.23 21:25:05 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:25:05 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.23 21:29:59 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+Oct. 23, 2020 9:32:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2495
+2020.10.23 21:33:23 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:33:23 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.23 21:34:01 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.23 21:35:15 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.23 21:42:35 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SECTree.scala' because it doesn't belong to a build target.
+2020.10.23 21:48:02 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.23 21:48:06 INFO  running '/home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7548679511373641075/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.10.23 21:48:09 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.7)
+2020.10.23 21:48:09 INFO  [info] loading settings for project global-plugins from idea.sbt ...
+2020.10.23 21:48:11 INFO  [info] loading global plugins from /home/mrrobot1802/.sbt/1.0/plugins
+2020.10.23 21:48:12 INFO  [info] loading settings for project comp3000-ass3nosyn-build-build from metals.sbt ...
+2020.10.23 21:48:12 INFO  [info] loading project definition from /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/project/project
+2020.10.23 21:48:12 INFO  [info] loading settings for project comp3000-ass3nosyn-build from metals.sbt ...
+2020.10.23 21:48:12 INFO  [info] loading project definition from /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/project
+2020.10.23 21:48:15 INFO  [success] Generated .bloop/comp3000-ass3nosyn-build.json
+2020.10.23 21:48:15 INFO  [success] Total time: 2 s, completed 23 Oct. 2020, 9:48:15 pm
+2020.10.23 21:48:15 INFO  [info] loading settings for project comp3000-ass3nosyn from build.sbt ...
+2020.10.23 21:48:15 INFO  [info] set current project to comp3000-ass3 (in build file:/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/)
+2020.10.23 21:48:16 INFO  [success] Generated .bloop/comp3000-ass3nosyn-test.json
+2020.10.23 21:48:16 INFO  [success] Generated .bloop/comp3000-ass3nosyn.json
+2020.10.23 21:48:16 INFO  [success] Total time: 0 s, completed 23 Oct. 2020, 9:48:16 pm
+2020.10.23 21:48:16 INFO  build tool exit: 0
+2020.10.23 21:48:16 INFO  time: ran 'sbt bloopInstall' in 10s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher15644278733862225832/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher15644278733862225832/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher15644278733862225832/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.23 21:48:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8664515989995490173/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8664515989995490173/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8664515989995490173/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.23 21:48:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.10.23 21:48:17 INFO  time: connected to build server in 0.28s
+2020.10.23 21:48:17 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.23 21:48:17 INFO  time: imported build in 0.25s
+2020.10.23 21:48:22 INFO  time: indexed workspace in 5.33s
+2020.10.23 21:48:23 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 21:48:37 INFO  time: compiled comp3000-ass3nosyn in 14s
+Oct. 23, 2020 9:49:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2847
+2020.10.23 21:49:30 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 21:49:30 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.23 21:49:51 ERROR code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because the SemanticDB file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn/bloop-bsp-clients-classes/classes-Metals-ZW7HJyc2SyORr2LKd5QgEg==/META-INF/semanticdb/src/main/scala/Translator.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.10.23 21:50:00 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 21:50:00 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.23 21:50:07 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 21:50:07 INFO  time: compiled comp3000-ass3nosyn in 0.87s
+2020.10.23 21:50:28 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 21:50:28 INFO  time: compiled comp3000-ass3nosyn in 0.71s
+2020.10.23 21:51:59 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 21:51:59 INFO  time: compiled comp3000-ass3nosyn in 0.72s
+2020.10.23 21:52:06 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 21:52:06 INFO  time: compiled comp3000-ass3nosyn in 0.7s
+Oct. 23, 2020 9:55:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Oct. 23, 2020 9:58:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3188
+2020.10.23 22:00:59 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:00:59 INFO  time: compiled comp3000-ass3nosyn in 62ms
+2020.10.23 22:01:30 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:01:30 INFO  time: compiled comp3000-ass3nosyn in 0.54s
+2020.10.23 22:01:42 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:01:42 INFO  time: compiled comp3000-ass3nosyn in 0.53s
+2020.10.23 22:02:26 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:02:26 INFO  time: compiled comp3000-ass3nosyn in 0.55s
+2020.10.23 22:05:04 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:05:04 INFO  time: compiled comp3000-ass3nosyn in 0.51s
+2020.10.23 22:05:27 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:05:27 INFO  time: compiled comp3000-ass3nosyn in 0.47s
+2020.10.23 22:09:24 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:09:24 INFO  time: compiled comp3000-ass3nosyn in 0.65s
+2020.10.23 22:11:36 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:11:36 INFO  time: compiled comp3000-ass3nosyn in 62ms
+Oct. 23, 2020 10:11:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2073)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:459)
+	at scala.collection.Iterator.toStream(Iterator.scala:1415)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1414)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1429)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1415)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1171)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1161)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+2020.10.23 22:11:39 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:11:39 INFO  time: compiled comp3000-ass3nosyn in 59ms
+2020.10.23 22:11:43 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:11:43 INFO  time: compiled comp3000-ass3nosyn in 0.48s
+2020.10.23 22:11:46 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:11:46 INFO  time: compiled comp3000-ass3nosyn in 0.42s
+2020.10.23 22:11:55 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:11:55 INFO  time: compiled comp3000-ass3nosyn in 0.44s
+2020.10.23 22:11:59 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:11:59 INFO  time: compiled comp3000-ass3nosyn in 0.38s
+2020.10.23 22:12:15 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:12:15 INFO  time: compiled comp3000-ass3nosyn in 0.56s
+2020.10.23 22:12:27 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:12:27 INFO  time: compiled comp3000-ass3nosyn in 0.58s
+2020.10.23 22:12:32 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:12:32 INFO  time: compiled comp3000-ass3nosyn in 0.44s
+2020.10.23 22:12:37 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:12:37 INFO  time: compiled comp3000-ass3nosyn in 0.57s
+2020.10.23 22:13:16 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:13:16 INFO  time: compiled comp3000-ass3nosyn in 0.52s
+2020.10.23 22:13:30 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:13:30 INFO  time: compiled comp3000-ass3nosyn in 0.59s
+2020.10.23 22:13:44 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:13:44 INFO  time: compiled comp3000-ass3nosyn in 0.56s
+2020.10.23 22:13:47 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:13:47 INFO  time: compiled comp3000-ass3nosyn in 0.52s
+2020.10.23 22:14:01 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:14:01 INFO  time: compiled comp3000-ass3nosyn in 0.39s
+2020.10.23 22:14:03 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 1177, 1177, 1195)
+2020.10.23 22:14:03 INFO  time: compiled comp3000-ass3nosyn in 0.75s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 2034, 2034, 2058)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 2034, 2034, 2058)
+2020.10.23 22:22:41 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.23 22:22:45 INFO  time: compiled comp3000-ass3nosyn in 3.96s
+Oct. 23, 2020 10:25:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4049
+2020.10.23 22:25:42 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:25:42 INFO  time: compiled comp3000-ass3nosyn in 97ms
+Oct. 23, 2020 10:29:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4133
+2020.10.23 22:31:27 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:31:27 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.23 22:31:45 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:31:45 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.23 22:32:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:32:15 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.23 22:42:46 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:42:46 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.23 22:42:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:42:47 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.23 22:43:54 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:43:54 INFO  time: compiled comp3000-ass3nosyn in 0.17s
+Oct. 23, 2020 10:53:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4736
+Oct. 23, 2020 10:54:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4819
+2020.10.23 22:56:38 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:56:38 INFO  time: compiled comp3000-ass3nosyn in 36ms
+2020.10.23 22:56:54 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:56:54 INFO  time: compiled comp3000-ass3nosyn in 38ms
+2020.10.23 22:56:59 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:56:59 INFO  time: compiled comp3000-ass3nosyn in 65ms
+2020.10.23 22:57:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:57:03 INFO  time: compiled comp3000-ass3nosyn in 72ms
+2020.10.23 22:57:09 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:57:09 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.23 22:57:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:57:17 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.23 22:57:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:57:47 INFO  time: compiled comp3000-ass3nosyn in 94ms
+2020.10.23 22:57:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:57:50 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.23 22:59:04 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:59:04 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.23 22:59:58 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 22:59:58 INFO  time: compiled comp3000-ass3nosyn in 0.18s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[_CURSOR_]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3553, 3559, 3569)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3553, 3559, 3562)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3553, 3559, 3564)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3553, 3559, 3565)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3553, 3559, 3570)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3553, 3559, 3570)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3553, 3559, 3570)
+2020.10.23 23:11:09 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:11:09 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.23 23:16:53 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:16:53 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.23 23:28:31 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:28:31 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.23 23:28:35 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:28:35 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.23 23:29:53 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:29:53 INFO  time: compiled comp3000-ass3nosyn in 58ms
+2020.10.23 23:31:14 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:31:14 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.23 23:31:37 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:31:37 INFO  time: compiled comp3000-ass3nosyn in 0.41s
+2020.10.23 23:32:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:32:18 INFO  time: compiled comp3000-ass3nosyn in 78ms
+2020.10.23 23:32:26 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:32:26 INFO  time: compiled comp3000-ass3nosyn in 33ms
+2020.10.23 23:32:35 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:32:35 INFO  time: compiled comp3000-ass3nosyn in 0.31s
+2020.10.23 23:34:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:34:41 INFO  time: compiled comp3000-ass3nosyn in 95ms
+Oct. 23, 2020 11:43:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6566
+2020.10.23 23:43:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:43:47 INFO  time: compiled comp3000-ass3nosyn in 86ms
+2020.10.23 23:45:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:45:01 INFO  time: compiled comp3000-ass3nosyn in 0.33s
+2020.10.23 23:49:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:49:33 INFO  time: compiled comp3000-ass3nosyn in 43ms
+2020.10.23 23:49:36 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:49:36 INFO  time: compiled comp3000-ass3nosyn in 64ms
+2020.10.23 23:49:48 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:49:48 INFO  time: compiled comp3000-ass3nosyn in 0.42s
+2020.10.23 23:50:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:50:03 INFO  time: compiled comp3000-ass3nosyn in 85ms
+2020.10.23 23:50:09 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:50:09 WARN  unexpected error processing the file /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn/bloop-bsp-clients-classes/classes-Metals-ZW7HJyc2SyORr2LKd5QgEg==/META-INF/semanticdb/src/main/scala/Translator.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.10.23 23:50:09 WARN  unexpected error processing the file /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn/bloop-bsp-clients-classes/classes-Metals-ZW7HJyc2SyORr2LKd5QgEg==/META-INF/semanticdb/src/main/scala/Translator.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.10.23 23:50:09 INFO  time: compiled comp3000-ass3nosyn in 0.28s
+2020.10.23 23:50:21 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:50:21 INFO  time: compiled comp3000-ass3nosyn in 91ms
+2020.10.23 23:50:37 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:50:37 INFO  time: compiled comp3000-ass3nosyn in 94ms
+Oct. 23, 2020 11:50:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6937
+2020.10.23 23:50:56 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:50:56 INFO  time: compiled comp3000-ass3nosyn in 0.25s
+2020.10.23 23:53:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:53:17 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+Oct. 23, 2020 11:53:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7130
+2020.10.23 23:53:46 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:53:46 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[Vector[funlang.FunLangTree.DefnGroup]]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 1954, 1954, 1986)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[Vector[funlang.FunLangTree.DefnGroup]]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 1954, 1954, 1986)
+Oct. 23, 2020 11:58:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7238
+2020.10.23 23:58:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.23 23:58:15 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+Oct. 23, 2020 11:59:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct. 23, 2020 11:59:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+2020.10.24 00:01:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:01:15 INFO  time: compiled comp3000-ass3nosyn in 86ms
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Val]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 2134, 2134, 2152)
+2020.10.24 00:04:10 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:04:10 INFO  time: compiled comp3000-ass3nosyn in 91ms
+Oct. 24, 2020 12:08:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7689
+2020.10.24 00:08:27 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:08:27 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 00:09:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:09:08 INFO  time: compiled comp3000-ass3nosyn in 94ms
+2020.10.24 00:09:21 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:09:21 INFO  time: compiled comp3000-ass3nosyn in 95ms
+2020.10.24 00:09:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:09:25 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 00:09:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:09:25 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 00:09:56 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:09:56 INFO  time: compiled comp3000-ass3nosyn in 54ms
+2020.10.24 00:10:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:10:03 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 00:10:12 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:10:12 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 00:10:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:10:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:10:19 INFO  time: compiled comp3000-ass3nosyn in 59ms
+2020.10.24 00:12:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:12:01 INFO  time: compiled comp3000-ass3nosyn in 50ms
+2020.10.24 00:12:04 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:12:04 INFO  time: compiled comp3000-ass3nosyn in 41ms
+Oct. 24, 2020 12:12:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8288
+2020.10.24 00:12:16 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:12:16 INFO  time: compiled comp3000-ass3nosyn in 69ms
+Oct. 24, 2020 12:13:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8432
+2020.10.24 00:13:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:13:25 INFO  time: compiled comp3000-ass3nosyn in 58ms
+2020.10.24 00:13:34 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:13:34 INFO  time: compiled comp3000-ass3nosyn in 72ms
+2020.10.24 00:13:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:13:47 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 00:16:16 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:16:16 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 00:16:27 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:16:27 INFO  time: compiled comp3000-ass3nosyn in 33ms
+2020.10.24 00:16:27 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:16:28 INFO  time: compiled comp3000-ass3nosyn in 97ms
+2020.10.24 00:16:40 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:16:40 INFO  time: compiled comp3000-ass3nosyn in 49ms
+2020.10.24 00:16:56 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:16:56 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 00:17:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:17:17 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 00:17:52 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:17:52 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 00:17:55 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:17:55 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 00:18:04 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:18:04 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 00:18:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:18:08 INFO  time: compiled comp3000-ass3nosyn in 41ms
+2020.10.24 00:18:43 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:18:43 INFO  time: compiled comp3000-ass3nosyn in 53ms
+2020.10.24 00:18:45 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:18:45 INFO  time: compiled comp3000-ass3nosyn in 41ms
+2020.10.24 00:18:58 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:18:58 INFO  time: compiled comp3000-ass3nosyn in 30ms
+2020.10.24 00:19:06 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:19:06 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 00:19:34 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:19:34 INFO  time: compiled comp3000-ass3nosyn in 43ms
+2020.10.24 00:19:43 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:19:43 INFO  time: compiled comp3000-ass3nosyn in 71ms
+2020.10.24 00:19:57 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:19:57 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+Oct. 24, 2020 12:25:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9094
+2020.10.24 00:25:12 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:25:12 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 00:26:02 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:26:02 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 00:26:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:26:08 INFO  time: compiled comp3000-ass3nosyn in 97ms
+2020.10.24 00:26:54 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:26:54 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 00:27:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:27:01 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 00:27:13 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:27:13 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 00:27:53 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:27:53 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 00:28:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:28:08 INFO  time: compiled comp3000-ass3nosyn in 81ms
+2020.10.24 00:28:29 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:28:29 INFO  time: compiled comp3000-ass3nosyn in 93ms
+2020.10.24 00:28:40 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:28:40 INFO  time: compiled comp3000-ass3nosyn in 69ms
+2020.10.24 00:28:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:28:41 INFO  time: compiled comp3000-ass3nosyn in 0.33s
+2020.10.24 00:29:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:29:18 INFO  time: compiled comp3000-ass3nosyn in 86ms
+2020.10.24 00:30:13 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:30:13 INFO  time: compiled comp3000-ass3nosyn in 99ms
+2020.10.24 00:30:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:30:24 INFO  time: compiled comp3000-ass3nosyn in 99ms
+Oct. 24, 2020 12:31:29 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Oct. 24, 2020 12:31:29 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Oct. 24, 2020 12:31:29 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.10.24 00:31:30 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:31:30 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+Oct. 24, 2020 12:31:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9944
+2020.10.24 00:32:00 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:32:00 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 00:32:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:32:17 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 00:32:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:32:33 INFO  time: compiled comp3000-ass3nosyn in 92ms
+2020.10.24 00:33:04 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:33:04 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 1968, 1968, 1985)
+2020.10.24 00:34:43 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:34:43 INFO  time: compiled comp3000-ass3nosyn in 99ms
+2020.10.24 00:34:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:34:49 INFO  time: compiled comp3000-ass3nosyn in 0.32s
+2020.10.24 00:34:59 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:34:59 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 00:41:58 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:41:58 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 00:42:23 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:42:23 INFO  time: compiled comp3000-ass3nosyn in 37ms
+2020.10.24 00:42:43 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:42:43 INFO  time: compiled comp3000-ass3nosyn in 43ms
+2020.10.24 00:42:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:42:50 INFO  time: compiled comp3000-ass3nosyn in 97ms
+2020.10.24 00:43:04 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:43:04 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+Oct. 24, 2020 12:43:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10457
+2020.10.24 00:44:12 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:44:12 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 00:44:52 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:44:52 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 00:45:00 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:45:00 INFO  time: compiled comp3000-ass3nosyn in 43ms
+2020.10.24 00:45:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:45:03 INFO  time: compiled comp3000-ass3nosyn in 46ms
+2020.10.24 00:45:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:45:08 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 00:45:20 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:45:20 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+Oct. 24, 2020 12:47:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10849
+Oct. 24, 2020 12:48:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11098
+Oct. 24, 2020 12:48:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11107
+Oct. 24, 2020 12:49:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11235
+Oct. 24, 2020 12:50:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11340
+2020.10.24 00:57:36 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.10.24 00:57:47 INFO  started: Metals version 0.9.4 in workspace '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn' for client vscode.
+2020.10.24 00:57:48 INFO  time: initialize in 1.07s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher17904297209999564046/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.10.24 00:57:49 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher17904297209999564046/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher17904297209999564046/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.24 00:57:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8215238768119319241/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8215238768119319241/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8215238768119319241/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.24 00:57:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.10.24 00:57:49 INFO  time: connected to build server in 0.69s
+2020.10.24 00:57:49 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.24 00:57:49 INFO  time: imported build in 0.13s
+2020.10.24 00:57:52 INFO  no build target: using presentation compiler with only scala-library
+2020.10.24 00:57:52 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:57:54 INFO  time: compiled comp3000-ass3nosyn in 1.32s
+2020.10.24 00:57:54 INFO  compiling comp3000-ass3nosyn (1 scala source)
+Oct. 24, 2020 12:57:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2020.10.24 00:57:54 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 00:57:54 INFO  time: indexed workspace in 5.05s
+2020.10.24 00:57:54 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:57:54 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.24 00:58:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:58:03 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 00:58:36 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:58:36 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 00:59:02 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 00:59:02 INFO  time: compiled comp3000-ass3nosyn in 0.31s
+2020.10.24 01:09:45 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:09:45 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 01:10:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:10:01 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 2034, 2034, 2058)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 1968, 1968, 1985)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 1968, 1968, 1985)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 1968, 1968, 1985)
+2020.10.24 01:10:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:10:19 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 01:10:22 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:10:22 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 01:11:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:11:41 INFO  time: compiled comp3000-ass3nosyn in 51ms
+2020.10.24 01:12:35 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:12:35 INFO  time: compiled comp3000-ass3nosyn in 46ms
+Oct. 24, 2020 1:12:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 532
+2020.10.24 01:12:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:12:41 INFO  time: compiled comp3000-ass3nosyn in 40ms
+Oct. 24, 2020 1:12:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 559
+2020.10.24 01:13:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:13:01 INFO  time: compiled comp3000-ass3nosyn in 46ms
+Oct. 24, 2020 1:13:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 596
+2020.10.24 01:13:21 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:13:21 INFO  time: compiled comp3000-ass3nosyn in 70ms
+2020.10.24 01:13:37 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:13:37 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 01:13:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:13:50 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 01:13:55 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:13:55 INFO  time: compiled comp3000-ass3nosyn in 94ms
+2020.10.24 01:14:00 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:14:00 INFO  time: compiled comp3000-ass3nosyn in 93ms
+2020.10.24 01:14:07 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:14:07 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 01:14:09 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:14:09 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 01:16:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:16:18 INFO  time: compiled comp3000-ass3nosyn in 97ms
+2020.10.24 01:17:16 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:17:16 INFO  time: compiled comp3000-ass3nosyn in 54ms
+2020.10.24 01:17:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:17:19 INFO  time: compiled comp3000-ass3nosyn in 78ms
+2020.10.24 01:17:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:17:24 INFO  time: compiled comp3000-ass3nosyn in 56ms
+2020.10.24 01:17:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:17:25 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+Oct. 24, 2020 1:18:20 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Oct. 24, 2020 1:18:20 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Oct. 24, 2020 1:18:20 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.10.24 01:18:21 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:18:21 INFO  time: compiled comp3000-ass3nosyn in 48ms
+2020.10.24 01:18:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:18:24 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 01:18:36 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:18:36 INFO  time: compiled comp3000-ass3nosyn in 47ms
+2020.10.24 01:18:58 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:18:58 INFO  time: compiled comp3000-ass3nosyn in 0.15s
+2020.10.24 01:18:58 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:18:58 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+Oct. 24, 2020 1:30:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1484
+2020.10.24 01:30:21 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:30:21 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 01:30:38 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:30:38 INFO  time: compiled comp3000-ass3nosyn in 94ms
+2020.10.24 01:32:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:32:01 INFO  time: compiled comp3000-ass3nosyn in 98ms
+2020.10.24 01:32:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:32:17 INFO  time: compiled comp3000-ass3nosyn in 94ms
+2020.10.24 01:32:35 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:32:35 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 01:37:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:37:03 INFO  time: compiled comp3000-ass3nosyn in 99ms
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4050)
+Oct. 24, 2020 1:37:27 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Oct. 24, 2020 1:37:27 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Oct. 24, 2020 1:37:28 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Oct. 24, 2020 1:37:28 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.10.24 01:37:29 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:37:29 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 01:38:46 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:38:46 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 01:41:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:41:08 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+Oct. 24, 2020 1:41:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2022
+2020.10.24 01:41:34 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:41:34 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 01:41:46 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:41:46 INFO  time: compiled comp3000-ass3nosyn in 88ms
+2020.10.24 01:41:52 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:41:52 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+Oct. 24, 2020 1:41:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2141
+2020.10.24 01:42:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:42:25 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[_CURSOR_]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3908, 3914, 3924)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3908, 3914, 3917)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3908, 3914, 3919)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3908, 3914, 3925)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3908, 3914, 3925)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3908, 3914, 3925)
+2020.10.24 01:53:35 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:53:35 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.24 01:53:35 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:53:35 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+Oct. 24, 2020 1:58:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2544
+2020.10.24 01:59:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 01:59:01 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 02:00:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:00:17 INFO  time: compiled comp3000-ass3nosyn in 85ms
+2020.10.24 02:00:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:00:19 INFO  time: compiled comp3000-ass3nosyn in 80ms
+2020.10.24 02:00:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:00:33 INFO  time: compiled comp3000-ass3nosyn in 77ms
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+2020.10.24 02:01:45 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:01:45 INFO  time: compiled comp3000-ass3nosyn in 49ms
+2020.10.24 02:01:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:01:51 WARN  unexpected error processing the file /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn/bloop-bsp-clients-classes/classes-Metals-9y0_NBciSUyrwLLYg-uX_Q==/META-INF/semanticdb/src/main/scala/Translator.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.10.24 02:01:50 INFO  time: compiled comp3000-ass3nosyn in 0.23s
+2020.10.24 02:02:29 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:02:29 INFO  time: compiled comp3000-ass3nosyn in 91ms
+Oct. 24, 2020 2:02:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2985
+2020.10.24 02:04:23 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:04:23 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 02:06:55 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:06:55 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4050)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4050)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4050)
+2020.10.24 02:09:22 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:09:22 INFO  time: compiled comp3000-ass3nosyn in 96ms
+2020.10.24 02:10:00 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:10:00 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 02:10:31 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:10:31 INFO  time: compiled comp3000-ass3nosyn in 0.36s
+2020.10.24 02:10:45 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:10:45 INFO  time: compiled comp3000-ass3nosyn in 0.28s
+2020.10.24 02:11:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:11:01 WARN  unexpected error processing the file /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn/bloop-bsp-clients-classes/classes-Metals-9y0_NBciSUyrwLLYg-uX_Q==/META-INF/semanticdb/src/main/scala/Translator.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.10.24 02:11:01 INFO  time: compiled comp3000-ass3nosyn in 0.23s
+2020.10.24 02:11:58 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:11:58 INFO  time: compiled comp3000-ass3nosyn in 0.23s
+2020.10.24 02:16:22 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:16:22 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+2020.10.24 02:25:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:25:25 INFO  time: compiled comp3000-ass3nosyn in 0.22s
+2020.10.24 02:26:43 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:26:43 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 02:26:55 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:26:55 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 02:27:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:27:01 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 02:29:45 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:29:45 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 02:29:55 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:29:55 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 02:31:48 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:31:48 INFO  time: compiled comp3000-ass3nosyn in 37ms
+2020.10.24 02:32:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:32:03 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 02:33:09 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:33:09 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 02:33:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:33:15 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 02:33:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:33:19 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 02:33:22 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:33:22 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 02:33:38 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:33:38 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 02:33:51 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:33:51 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 02:34:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:34:01 INFO  time: compiled comp3000-ass3nosyn in 83ms
+2020.10.24 02:34:12 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:34:12 INFO  time: compiled comp3000-ass3nosyn in 86ms
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4049)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4050)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4033, 4033, 4050)
+2020.10.24 02:34:57 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:34:57 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 02:35:14 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:35:14 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 02:35:20 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:35:20 INFO  time: compiled comp3000-ass3nosyn in 92ms
+2020.10.24 02:35:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:35:25 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 02:38:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:38:33 INFO  time: compiled comp3000-ass3nosyn in 0.15s
+Oct. 24, 2020 2:47:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4731
+2020.10.24 02:48:02 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:48:02 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+Oct. 24, 2020 2:48:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4821
+2020.10.24 02:48:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:48:33 INFO  time: compiled comp3000-ass3nosyn in 86ms
+2020.10.24 02:48:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:48:33 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 02:48:37 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:48:37 INFO  time: compiled comp3000-ass3nosyn in 97ms
+2020.10.24 02:48:59 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:48:59 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 02:49:20 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:49:20 INFO  time: compiled comp3000-ass3nosyn in 0.21s
+2020.10.24 02:54:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:54:18 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 02:54:32 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:54:32 INFO  time: compiled comp3000-ass3nosyn in 91ms
+2020.10.24 02:54:40 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:54:40 INFO  time: compiled comp3000-ass3nosyn in 95ms
+2020.10.24 02:56:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:56:01 INFO  time: compiled comp3000-ass3nosyn in 96ms
+2020.10.24 02:59:32 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 02:59:32 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+2020.10.24 03:00:42 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:00:42 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 03:01:21 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:01:21 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+2020.10.24 03:02:06 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:02:06 INFO  time: compiled comp3000-ass3nosyn in 96ms
+2020.10.24 03:02:14 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:02:14 INFO  time: compiled comp3000-ass3nosyn in 94ms
+2020.10.24 03:02:23 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:02:23 INFO  time: compiled comp3000-ass3nosyn in 0.15s
+2020.10.24 03:02:36 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:02:36 WARN  unexpected error processing the file /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn/bloop-bsp-clients-classes/classes-Metals-9y0_NBciSUyrwLLYg-uX_Q==/META-INF/semanticdb/src/main/scala/Translator.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.10.24 03:02:36 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+2020.10.24 03:03:04 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:03:04 INFO  time: compiled comp3000-ass3nosyn in 0.34s
+2020.10.24 03:03:32 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:03:32 INFO  time: compiled comp3000-ass3nosyn in 96ms
+2020.10.24 03:04:14 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:04:14 INFO  time: compiled comp3000-ass3nosyn in 0.41s
+2020.10.24 03:04:20 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:04:20 INFO  time: compiled comp3000-ass3nosyn in 0.29s
+2020.10.24 03:08:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:08:47 INFO  time: compiled comp3000-ass3nosyn in 77ms
+2020.10.24 03:08:59 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:08:59 INFO  time: compiled comp3000-ass3nosyn in 93ms
+Oct. 24, 2020 3:09:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6091
+2020.10.24 03:09:26 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:09:26 INFO  time: compiled comp3000-ass3nosyn in 66ms
+2020.10.24 03:09:48 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:09:48 INFO  time: compiled comp3000-ass3nosyn in 43ms
+2020.10.24 03:10:05 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:10:05 INFO  time: compiled comp3000-ass3nosyn in 48ms
+2020.10.24 03:10:09 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:10:09 INFO  time: compiled comp3000-ass3nosyn in 94ms
+2020.10.24 03:10:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:10:15 INFO  time: compiled comp3000-ass3nosyn in 0.23s
+Oct. 24, 2020 3:10:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6251
+2020.10.24 03:10:31 INFO  compiling comp3000-ass3nosyn-test (5 scala sources)
+2020.10.24 03:10:32 INFO  time: compiled comp3000-ass3nosyn-test in 1.16s
+2020.10.24 03:10:38 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:10:38 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 03:10:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:10:41 INFO  time: compiled comp3000-ass3nosyn in 75ms
+2020.10.24 03:10:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:10:47 INFO  time: compiled comp3000-ass3nosyn in 0.19s
+2020.10.24 03:11:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:11:19 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+Oct. 24, 2020 3:11:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6452
+2020.10.24 03:11:30 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:11:30 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 03:14:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:14:01 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 03:14:11 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:14:11 INFO  time: compiled comp3000-ass3nosyn in 94ms
+2020.10.24 03:16:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:16:19 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 03:16:37 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:16:37 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 03:17:07 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:17:07 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 03:18:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:18:25 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 03:19:11 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:19:11 INFO  time: compiled comp3000-ass3nosyn in 47ms
+2020.10.24 03:19:13 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:19:13 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 03:21:13 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:21:13 INFO  time: compiled comp3000-ass3nosyn in 96ms
+2020.10.24 03:21:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:21:24 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 03:21:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:21:41 INFO  time: compiled comp3000-ass3nosyn in 0.32s
+2020.10.24 03:25:05 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:25:05 INFO  time: compiled comp3000-ass3nosyn in 0.31s
+2020.10.24 03:26:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:26:03 INFO  time: compiled comp3000-ass3nosyn in 70ms
+2020.10.24 03:26:13 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:26:13 INFO  time: compiled comp3000-ass3nosyn in 37ms
+2020.10.24 03:26:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:26:19 INFO  time: compiled comp3000-ass3nosyn in 66ms
+2020.10.24 03:26:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:26:25 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 03:26:53 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:26:53 INFO  time: compiled comp3000-ass3nosyn in 45ms
+2020.10.24 03:26:58 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:26:58 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4237, 4237, 4254)
+Oct. 24, 2020 3:27:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7940
+2020.10.24 03:27:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:27:15 INFO  time: compiled comp3000-ass3nosyn in 0.31s
+2020.10.24 03:27:36 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:27:36 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 03:27:38 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:27:38 INFO  time: compiled comp3000-ass3nosyn in 0.31s
+2020.10.24 03:27:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:27:47 INFO  time: compiled comp3000-ass3nosyn in 0.44s
+2020.10.24 03:27:51 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:27:52 WARN  unexpected error processing the file /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn/bloop-bsp-clients-classes/classes-Metals-9y0_NBciSUyrwLLYg-uX_Q==/META-INF/semanticdb/src/main/scala/Translator.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.10.24 03:27:51 INFO  time: compiled comp3000-ass3nosyn in 0.29s
+Oct. 24, 2020 3:28:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8128
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in List[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4269, 4269, 4284)
+Oct. 24, 2020 3:31:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8166
+2020.10.24 03:32:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:32:03 INFO  time: compiled comp3000-ass3nosyn in 99ms
+2020.10.24 03:32:40 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:32:40 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 03:34:29 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:34:29 INFO  time: compiled comp3000-ass3nosyn in 89ms
+2020.10.24 03:34:32 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:34:32 INFO  time: compiled comp3000-ass3nosyn in 94ms
+2020.10.24 03:34:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:34:49 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 03:34:52 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:34:52 INFO  time: compiled comp3000-ass3nosyn in 84ms
+2020.10.24 03:34:54 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 03:34:54 INFO  time: compiled comp3000-ass3nosyn in 51ms
+2020.10.24 11:51:06 INFO  started: Metals version 0.9.4 in workspace '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn' for client vscode.
+2020.10.24 11:51:08 INFO  time: initialize in 1.58s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher10150473607030184071/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.10.24 11:51:12 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.10.24 11:51:16 INFO  no build target: using presentation compiler with only scala-library
+2020.10.24 11:51:16 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.24 11:51:16 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SECTree.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn-test.json'
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'comp3000-ass3nosyn-test', 'comp3000-ass3nosyn'
+[0m[32m[D][0m Loading previous analysis for 'comp3000-ass3nosyn-test' from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'comp3000-ass3nosyn' from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher10150473607030184071/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher10150473607030184071/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.24 11:51:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1347245333289335107/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1347245333289335107/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1347245333289335107/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.24 11:51:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.10.24 11:51:19 INFO  time: connected to build server in 7.54s
+2020.10.24 11:51:19 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.24 11:51:19 INFO  time: imported build in 0.14s
+2020.10.24 11:51:23 INFO  time: indexed workspace in 3.21s
+2020.10.24 11:54:29 INFO  Deduplicating compilation of comp3000-ass3nosyn from bsp client 'Metals 0.9.4' (since 3m 10.069s)
+2020.10.24 11:54:29 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.24 11:54:29 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.24 11:54:42 INFO  Deduplicating compilation of comp3000-ass3nosyn from bsp client 'Metals 0.9.4' (since 3m 22.622s)
+2020.10.24 11:54:42 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.24 11:54:53 INFO  time: compiled comp3000-ass3nosyn in 11s
+2020.10.24 11:58:35 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.24 11:58:35 INFO  time: compiled comp3000-ass3nosyn in 0.33s
+2020.10.24 11:59:09 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.24 11:59:09 INFO  time: compiled comp3000-ass3nosyn in 0.18s
+2020.10.24 11:59:18 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.24 11:59:21 INFO  time: compiled comp3000-ass3nosyn in 2.9s
+2020.10.24 11:59:36 INFO  compiling comp3000-ass3nosyn (8 scala sources)
+2020.10.24 11:59:47 INFO  time: compiled comp3000-ass3nosyn in 11s
+2020.10.24 11:59:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 11:59:47 INFO  time: compiled comp3000-ass3nosyn in 0.19s
+2020.10.24 12:00:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:00:18 INFO  time: compiled comp3000-ass3nosyn in 0.54s
+2020.10.24 12:00:22 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:00:22 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+2020.10.24 12:00:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:00:50 INFO  time: compiled comp3000-ass3nosyn in 0.81s
+2020.10.24 12:01:05 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:01:05 INFO  time: compiled comp3000-ass3nosyn in 0.75s
+2020.10.24 12:01:07 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:01:07 INFO  time: compiled comp3000-ass3nosyn in 0.86s
+Oct. 24, 2020 12:01:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 612
+Oct. 24, 2020 12:01:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 617
+Oct. 24, 2020 12:01:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 618
+Oct. 24, 2020 12:01:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 622
+2020.10.24 12:04:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:04:50 INFO  time: compiled comp3000-ass3nosyn in 0.15s
+2020.10.24 12:06:36 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:06:36 INFO  time: compiled comp3000-ass3nosyn in 0.18s
+Oct. 24, 2020 12:06:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1234
+2020.10.24 12:06:48 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:06:48 INFO  time: compiled comp3000-ass3nosyn in 0.19s
+2020.10.24 12:06:56 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:06:56 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.24 12:09:58 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:09:58 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 12:10:28 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:10:28 INFO  time: compiled comp3000-ass3nosyn in 47ms
+2020.10.24 12:10:30 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:10:30 INFO  time: compiled comp3000-ass3nosyn in 0.62s
+2020.10.24 12:10:48 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:10:48 INFO  time: compiled comp3000-ass3nosyn in 0.66s
+2020.10.24 12:11:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:11:01 INFO  time: compiled comp3000-ass3nosyn in 0.17s
+2020.10.24 12:11:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:11:15 INFO  time: compiled comp3000-ass3nosyn in 0.49s
+2020.10.24 12:11:27 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:11:27 INFO  time: compiled comp3000-ass3nosyn in 0.7s
+2020.10.24 12:14:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:14:18 INFO  time: compiled comp3000-ass3nosyn in 0.62s
+2020.10.24 12:14:18 INFO  compiling comp3000-ass3nosyn-test (5 scala sources)
+2020.10.24 12:14:23 INFO  time: compiled comp3000-ass3nosyn-test in 4.17s
+2020.10.24 12:14:23 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:14:24 INFO  time: compiled comp3000-ass3nosyn in 1.06s
+2020.10.24 12:14:27 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:14:27 INFO  time: compiled comp3000-ass3nosyn in 0.69s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/FunLangTree.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/FunLangTree.scala, 2418, 2418, 2435)
+2020.10.24 12:29:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:29:15 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 12:29:26 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:29:26 INFO  time: compiled comp3000-ass3nosyn in 0.4s
+2020.10.24 12:33:35 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:33:35 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 12:33:39 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:33:39 INFO  time: compiled comp3000-ass3nosyn in 0.56s
+2020.10.24 12:37:28 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:37:28 INFO  time: compiled comp3000-ass3nosyn in 0.33s
+2020.10.24 12:38:07 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:38:07 INFO  time: compiled comp3000-ass3nosyn in 0.55s
+2020.10.24 12:39:04 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:39:04 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 12:39:22 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:39:22 INFO  time: compiled comp3000-ass3nosyn in 0.46s
+2020.10.24 12:39:58 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:39:58 INFO  time: compiled comp3000-ass3nosyn in 0.36s
+2020.10.24 12:49:02 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:49:02 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.24 12:49:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:49:15 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 12:50:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:50:25 INFO  time: compiled comp3000-ass3nosyn in 0.39s
+2020.10.24 12:50:35 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:50:35 INFO  time: compiled comp3000-ass3nosyn in 0.37s
+2020.10.24 12:54:04 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:54:04 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 12:54:07 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:54:07 INFO  time: compiled comp3000-ass3nosyn in 0.18s
+2020.10.24 12:54:31 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:54:31 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.24 12:54:34 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:54:34 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 12:54:37 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:54:37 INFO  time: compiled comp3000-ass3nosyn in 0.38s
+2020.10.24 12:54:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:54:49 INFO  time: compiled comp3000-ass3nosyn in 0.35s
+2020.10.24 12:55:11 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:55:11 INFO  time: compiled comp3000-ass3nosyn in 97ms
+Oct. 24, 2020 12:55:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2457
+2020.10.24 12:55:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:55:15 INFO  time: compiled comp3000-ass3nosyn in 0.31s
+2020.10.24 12:55:37 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:55:37 INFO  time: compiled comp3000-ass3nosyn in 0.29s
+2020.10.24 12:56:46 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:56:46 INFO  time: compiled comp3000-ass3nosyn in 0.33s
+2020.10.24 12:58:00 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:58:00 INFO  time: compiled comp3000-ass3nosyn in 0.21s
+2020.10.24 12:58:14 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:58:14 INFO  time: compiled comp3000-ass3nosyn in 96ms
+2020.10.24 12:58:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 12:58:18 INFO  time: compiled comp3000-ass3nosyn in 0.34s
+2020.10.24 13:13:44 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.10.24 13:16:30 INFO  started: Metals version 0.9.4 in workspace '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn' for client vscode.
+2020.10.24 13:16:31 INFO  time: initialize in 1.8s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher515962067816126485/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.10.24 13:16:36 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.10.24 13:16:41 INFO  no build target: using presentation compiler with only scala-library
+2020.10.24 13:16:41 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.24 13:16:41 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/FunLangTree.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn.json'
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'comp3000-ass3nosyn', 'comp3000-ass3nosyn-test'
+[0m[32m[D][0m Loading previous analysis for 'comp3000-ass3nosyn-test' from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'comp3000-ass3nosyn' from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher515962067816126485/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher515962067816126485/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.24 13:16:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4047767413822214815/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4047767413822214815/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4047767413822214815/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.24 13:16:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.10.24 13:16:44 INFO  time: connected to build server in 8.62s
+2020.10.24 13:16:44 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.24 13:16:44 INFO  time: imported build in 0.16s
+2020.10.24 13:16:48 INFO  time: indexed workspace in 3.89s
+2020.10.24 13:16:50 WARN  unexpected error processing the file /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn/bloop-bsp-clients-classes/classes-Metals-4yJ1EWkDShqXDpp5fXJnmw==/META-INF/semanticdb/src/main/scala/SemanticAnalysis.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.10.24 14:11:55 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:12:01 INFO  time: compiled comp3000-ass3nosyn in 5.48s
+2020.10.24 14:12:14 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:12:15 INFO  time: compiled comp3000-ass3nosyn in 1.23s
+2020.10.24 14:12:42 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:12:42 INFO  time: compiled comp3000-ass3nosyn in 1s
+2020.10.24 14:16:21 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:21 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:21 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:22 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:22 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:22 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:22 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:22 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:25 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:25 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:25 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:25 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:25 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:25 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:27 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:27 INFO  /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:138:38: stale bloop error: unreachable code
+> {
+> 
+>                     }
+2020.10.24 14:16:28 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:16:28 INFO  time: compiled comp3000-ass3nosyn in 0.81s
+2020.10.24 14:17:27 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:17:27 INFO  time: compiled comp3000-ass3nosyn in 0.63s
+Oct. 24, 2020 2:19:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 260
+2020.10.24 14:20:00 INFO  running '/home/mrrobot1802/.jabba/jdk/adopt@1.11.0-7/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13366881388284969050/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.10.24 14:20:04 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 11.0.7)
+2020.10.24 14:20:06 INFO  [info] loading settings for project global-plugins from idea.sbt ...
+2020.10.24 14:20:07 INFO  [info] loading global plugins from /home/mrrobot1802/.sbt/1.0/plugins
+2020.10.24 14:20:08 INFO  [info] loading settings for project comp3000-ass3nosyn-build-build from metals.sbt ...
+2020.10.24 14:20:08 INFO  [info] loading project definition from /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/project/project
+2020.10.24 14:20:08 INFO  [info] loading settings for project comp3000-ass3nosyn-build from metals.sbt ...
+2020.10.24 14:20:08 INFO  [info] loading project definition from /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/project
+2020.10.24 14:20:12 INFO  [success] Generated .bloop/comp3000-ass3nosyn-build.json
+2020.10.24 14:20:12 INFO  [success] Total time: 3 s, completed 24 Oct. 2020, 2:20:12 pm
+2020.10.24 14:20:12 INFO  [info] loading settings for project comp3000-ass3nosyn from build.sbt ...
+2020.10.24 14:20:12 INFO  [info] set current project to comp3000-ass3 (in build file:/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/)
+2020.10.24 14:20:14 INFO  [success] Generated .bloop/comp3000-ass3nosyn.json
+2020.10.24 14:20:14 INFO  [success] Generated .bloop/comp3000-ass3nosyn-test.json
+2020.10.24 14:20:14 INFO  [success] Total time: 0 s, completed 24 Oct. 2020, 2:20:14 pm
+2020.10.24 14:20:14 INFO  build tool exit: 0
+2020.10.24 14:20:14 INFO  time: ran 'sbt bloopInstall' in 13s
+2020.10.24 14:20:14 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8274703970078535680/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8274703970078535680/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8274703970078535680/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.24 14:20:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher10451832726938829448/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher10451832726938829448/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher10451832726938829448/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.24 14:20:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.10.24 14:20:14 INFO  time: connected to build server in 0.18s
+2020.10.24 14:20:14 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.24 14:20:15 INFO  time: indexed workspace in 1.08s
+2020.10.24 14:21:40 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:21:40 INFO  Deduplicating compilation of comp3000-ass3nosyn from bsp client 'Metals 0.9.4' (since 1m 26.176s)
+2020.10.24 14:21:40 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:21:40 INFO  time: compiled comp3000-ass3nosyn in 0.6s
+2020.10.24 14:30:38 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:30:38 INFO  time: compiled comp3000-ass3nosyn in 0.17s
+2020.10.24 14:30:46 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:30:46 INFO  time: compiled comp3000-ass3nosyn in 0.15s
+2020.10.24 14:30:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:30:49 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.24 14:30:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:30:49 INFO  time: compiled comp3000-ass3nosyn in 48ms
+2020.10.24 14:30:57 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:30:57 INFO  time: compiled comp3000-ass3nosyn in 42ms
+2020.10.24 14:30:59 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:30:59 INFO  time: compiled comp3000-ass3nosyn in 39ms
+2020.10.24 14:31:06 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:31:06 INFO  time: compiled comp3000-ass3nosyn in 0.17s
+2020.10.24 14:31:11 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:31:11 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 14:31:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:31:41 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 14:31:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:31:50 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+Oct. 24, 2020 2:31:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 510
+2020.10.24 14:31:59 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:31:59 INFO  time: compiled comp3000-ass3nosyn in 90ms
+2020.10.24 14:32:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:32:03 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+Oct. 24, 2020 2:32:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 539
+2020.10.24 14:34:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:34:50 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 14:36:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:36:03 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 14:36:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:36:25 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3710, 3716, 3727)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3710, 3716, 3727)
+2020.10.24 14:36:48 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:36:48 INFO  time: compiled comp3000-ass3nosyn in 91ms
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[_CURSOR_]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3714, 3714, 3730)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3714, 3714, 3723)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3714, 3714, 3725)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3714, 3714, 3731)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3714, 3714, 3731)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.DefnGroup]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 3714, 3714, 3731)
+2020.10.24 14:37:04 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:37:04 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 14:37:09 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:37:09 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 14:37:16 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:37:16 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.24 14:41:00 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:41:00 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.24 14:42:04 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:42:04 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.24 14:42:06 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:42:06 INFO  time: compiled comp3000-ass3nosyn in 0.45s
+2020.10.24 14:42:34 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:42:34 INFO  time: compiled comp3000-ass3nosyn in 0.43s
+2020.10.24 14:44:51 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:44:51 INFO  time: compiled comp3000-ass3nosyn in 0.28s
+2020.10.24 14:45:28 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:45:28 INFO  time: compiled comp3000-ass3nosyn in 0.29s
+2020.10.24 14:46:48 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:46:48 INFO  time: compiled comp3000-ass3nosyn in 0.33s
+2020.10.24 14:49:36 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:49:36 INFO  time: compiled comp3000-ass3nosyn in 0.35s
+2020.10.24 14:51:02 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 14:51:02 INFO  time: compiled comp3000-ass3nosyn in 0.32s
+2020.10.24 15:05:55 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:05:55 INFO  time: compiled comp3000-ass3nosyn in 34ms
+2020.10.24 15:05:57 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:05:57 INFO  time: compiled comp3000-ass3nosyn in 0.26s
+2020.10.24 15:06:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:06:03 INFO  time: compiled comp3000-ass3nosyn in 0.26s
+2020.10.24 15:06:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:06:25 INFO  time: compiled comp3000-ass3nosyn in 0.22s
+2020.10.24 15:07:46 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:07:46 INFO  time: compiled comp3000-ass3nosyn in 0.25s
+2020.10.24 15:15:55 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:15:55 INFO  time: compiled comp3000-ass3nosyn in 0.22s
+2020.10.24 15:32:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:32:19 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+Oct. 24, 2020 3:32:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1850
+2020.10.24 15:32:31 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:32:31 INFO  time: compiled comp3000-ass3nosyn in 0.27s
+2020.10.24 15:33:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:33:01 INFO  time: compiled comp3000-ass3nosyn in 0.22s
+2020.10.24 15:37:16 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:37:16 INFO  time: compiled comp3000-ass3nosyn in 0.34s
+2020.10.24 15:47:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:47:03 INFO  time: compiled comp3000-ass3nosyn in 0.37s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[_CURSOR_]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4510, 4510, 4526)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4510, 4510, 4519)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[<error>]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4510, 4510, 4520)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.Fun]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4510, 4510, 4521)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.Fun]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4510, 4510, 4521)
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.Fun]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4510, 4510, 4521)
+2020.10.24 15:56:56 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 15:56:56 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+2020.10.24 16:00:16 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:00:16 INFO  time: compiled comp3000-ass3nosyn in 0.3s
+2020.10.24 16:06:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:06:19 INFO  time: compiled comp3000-ass3nosyn in 0.23s
+2020.10.24 16:07:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:07:18 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.24 16:08:06 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:08:06 INFO  time: compiled comp3000-ass3nosyn in 0.39s
+Oct. 24, 2020 4:09:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2863
+2020.10.24 16:10:52 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:10:52 INFO  time: compiled comp3000-ass3nosyn in 0.29s
+2020.10.24 16:12:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:12:41 INFO  time: compiled comp3000-ass3nosyn in 0.38s
+2020.10.24 16:14:09 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:14:09 INFO  time: compiled comp3000-ass3nosyn in 0.19s
+2020.10.24 16:14:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:14:24 INFO  time: compiled comp3000-ass3nosyn in 0.33s
+2020.10.24 16:14:26 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:14:26 INFO  time: compiled comp3000-ass3nosyn in 0.43s
+Oct. 24, 2020 4:21:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3166
+2020.10.24 16:22:22 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:22:22 INFO  time: compiled comp3000-ass3nosyn in 0.19s
+2020.10.24 16:33:48 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:33:48 INFO  time: compiled comp3000-ass3nosyn in 0.18s
+2020.10.24 16:33:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:33:50 INFO  time: compiled comp3000-ass3nosyn in 0.19s
+2020.10.24 16:34:56 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:34:56 INFO  time: compiled comp3000-ass3nosyn in 0.23s
+2020.10.24 16:45:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:45:03 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.24 16:45:31 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:45:31 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+2020.10.24 16:45:36 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:45:36 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+Oct. 24, 2020 4:46:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3519
+2020.10.24 16:46:06 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 16:46:06 INFO  time: compiled comp3000-ass3nosyn in 0.27s
+2020.10.24 17:07:42 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:07:42 INFO  time: compiled comp3000-ass3nosyn in 77ms
+2020.10.24 17:07:51 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:07:51 INFO  time: compiled comp3000-ass3nosyn in 0.23s
+2020.10.24 17:08:03 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:08:03 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.24 17:08:43 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:08:43 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.24 17:08:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:08:47 INFO  time: compiled comp3000-ass3nosyn in 0.18s
+2020.10.24 17:11:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:11:08 INFO  time: compiled comp3000-ass3nosyn in 31ms
+2020.10.24 17:11:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:11:09 INFO  time: compiled comp3000-ass3nosyn in 0.26s
+2020.10.24 17:11:53 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:11:53 INFO  time: compiled comp3000-ass3nosyn in 0.17s
+2020.10.24 17:13:34 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:13:34 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.24 17:16:16 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:16:16 INFO  time: compiled comp3000-ass3nosyn in 0.22s
+2020.10.24 17:16:44 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:16:44 INFO  time: compiled comp3000-ass3nosyn in 0.22s
+2020.10.24 17:16:48 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:16:48 INFO  time: compiled comp3000-ass3nosyn in 0.17s
+Oct. 24, 2020 5:19:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4181
+2020.10.24 17:20:05 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:20:05 INFO  time: compiled comp3000-ass3nosyn in 85ms
+2020.10.24 17:20:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:20:24 INFO  time: compiled comp3000-ass3nosyn in 0.1s
+Oct. 24, 2020 5:22:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4355
+2020.10.24 17:25:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:25:08 INFO  time: compiled comp3000-ass3nosyn in 84ms
+2020.10.24 17:25:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:25:17 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+2020.10.24 17:25:39 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:25:39 INFO  time: compiled comp3000-ass3nosyn in 87ms
+2020.10.24 17:26:06 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:26:06 INFO  time: compiled comp3000-ass3nosyn in 91ms
+2020.10.24 17:26:22 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:26:22 INFO  time: compiled comp3000-ass3nosyn in 81ms
+2020.10.24 17:26:26 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:26:26 INFO  time: compiled comp3000-ass3nosyn in 92ms
+2020.10.24 17:27:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:27:49 INFO  time: compiled comp3000-ass3nosyn in 84ms
+2020.10.24 17:28:07 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:28:07 INFO  time: compiled comp3000-ass3nosyn in 90ms
+2020.10.24 17:28:34 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:28:34 INFO  time: compiled comp3000-ass3nosyn in 86ms
+2020.10.24 17:28:52 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:28:52 INFO  time: compiled comp3000-ass3nosyn in 82ms
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala in Vector[funlang.FunLangTree.Fun]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala, 4511, 4511, 4522)
+2020.10.24 17:29:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:29:33 INFO  time: compiled comp3000-ass3nosyn in 76ms
+2020.10.24 17:29:37 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:29:37 INFO  time: compiled comp3000-ass3nosyn in 62ms
+2020.10.24 17:29:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:29:49 INFO  time: compiled comp3000-ass3nosyn in 0.18s
+2020.10.24 17:30:55 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:30:55 INFO  time: compiled comp3000-ass3nosyn in 0.19s
+2020.10.24 17:33:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:33:08 INFO  time: compiled comp3000-ass3nosyn in 22ms
+2020.10.24 17:33:14 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:33:14 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.24 17:38:28 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:38:28 INFO  time: compiled comp3000-ass3nosyn in 0.28s
+2020.10.24 17:39:35 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:39:35 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.24 17:39:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 17:39:49 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+Oct. 24, 2020 6:15:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5296
+2020.10.24 18:15:28 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 18:15:28 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+Oct. 24, 2020 6:15:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5376
+2020.10.24 18:15:51 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 18:15:51 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.24 18:21:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.24 18:21:25 INFO  time: compiled comp3000-ass3nosyn in 0.17s
+2020.10.25 11:31:00 INFO  shutting down Metals
+2020.10.25 16:48:18 INFO  started: Metals version 0.9.4 in workspace '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn' for client vscode.
+2020.10.25 16:48:19 INFO  time: initialize in 1.52s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher18263836348228565417/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.10.25 16:48:20 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.10.25 16:48:24 INFO  no build target: using presentation compiler with only scala-library
+2020.10.25 16:48:24 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+2020.10.25 16:48:24 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SECMachine.scala
+2020.10.25 16:48:24 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+Oct. 25, 2020 4:48:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Oct. 25, 2020 4:48:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop'...
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn-test.json'
+[0m[32m[D][0m Loading project from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+[0m[32m[D][0m   => /home/mrrobot1802/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'comp3000-ass3nosyn', 'comp3000-ass3nosyn-test'
+[0m[32m[D][0m Loading previous analysis for 'comp3000-ass3nosyn-test' from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'comp3000-ass3nosyn' from '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher18263836348228565417/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher18263836348228565417/bsp.socket...
+2020.10.25 16:48:26 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.25 16:48:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.10.25 16:48:26 WARN  code navigation does not work for the file '/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala' because it doesn't belong to a build target.
+2020.10.25 16:48:26 WARN  no build target for: /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher16287482415704216556/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher16287482415704216556/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher16287482415704216556/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.25 16:48:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mrrobot1802/.cache/metals/bsp.trace.json
+2020.10.25 16:48:27 INFO  time: connected to build server in 7.64s
+2020.10.25 16:48:27 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.25 16:48:27 INFO  time: imported build in 0.14s
+2020.10.25 16:48:32 INFO  time: indexed workspace in 4.46s
+2020.10.25 16:48:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 16:48:39 WARN  unexpected error processing the file /home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/.bloop/comp3000-ass3nosyn/bloop-bsp-clients-classes/classes-Metals-AfdQ9cYgRC64CNQAMHIQHQ==/META-INF/semanticdb/src/main/scala/SECTree.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2020.10.25 16:48:39 INFO  time: compiled comp3000-ass3nosyn in 5.62s
+2020.10.25 16:52:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 16:52:36 INFO  time: compiled comp3000-ass3nosyn in 3.84s
+2020.10.25 17:04:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:04:42 INFO  time: compiled comp3000-ass3nosyn in 1.38s
+2020.10.25 17:04:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:04:47 INFO  time: compiled comp3000-ass3nosyn in 0.63s
+2020.10.25 17:05:23 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:05:23 INFO  time: compiled comp3000-ass3nosyn in 0.38s
+2020.10.25 17:05:42 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:05:42 INFO  time: compiled comp3000-ass3nosyn in 0.5s
+2020.10.25 17:05:53 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:05:53 INFO  time: compiled comp3000-ass3nosyn in 0.33s
+2020.10.25 17:06:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:06:41 INFO  time: compiled comp3000-ass3nosyn in 0.42s
+2020.10.25 17:09:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:09:41 INFO  time: compiled comp3000-ass3nosyn in 0.23s
+2020.10.25 17:12:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:12:50 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.25 17:12:53 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:12:53 INFO  time: compiled comp3000-ass3nosyn in 0.11s
+2020.10.25 17:13:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:13:01 INFO  time: compiled comp3000-ass3nosyn in 0.78s
+2020.10.25 17:13:02 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:13:02 INFO  time: compiled comp3000-ass3nosyn in 0.71s
+2020.10.25 17:13:54 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:13:54 INFO  time: compiled comp3000-ass3nosyn in 0.54s
+2020.10.25 17:14:29 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:14:29 INFO  time: compiled comp3000-ass3nosyn in 0.5s
+2020.10.25 17:14:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:14:41 INFO  time: compiled comp3000-ass3nosyn in 0.52s
+2020.10.25 17:16:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:16:19 INFO  time: compiled comp3000-ass3nosyn in 0.54s
+2020.10.25 17:16:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:16:49 INFO  time: compiled comp3000-ass3nosyn in 0.43s
+2020.10.25 17:18:13 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:18:13 INFO  time: compiled comp3000-ass3nosyn in 49ms
+2020.10.25 17:18:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:18:15 INFO  time: compiled comp3000-ass3nosyn in 47ms
+2020.10.25 17:18:20 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:18:20 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.25 17:18:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:18:25 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.25 17:18:37 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:18:37 INFO  time: compiled comp3000-ass3nosyn in 0.58s
+2020.10.25 17:19:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:19:25 INFO  time: compiled comp3000-ass3nosyn in 0.56s
+2020.10.25 17:19:43 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:19:43 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+Oct. 25, 2020 5:20:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 951
+Oct. 25, 2020 5:20:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 952
+2020.10.25 17:21:13 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:21:13 INFO  time: compiled comp3000-ass3nosyn in 38ms
+2020.10.25 17:21:15 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:21:15 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.25 17:21:16 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:21:16 INFO  time: compiled comp3000-ass3nosyn in 0.41s
+2020.10.25 17:21:39 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:21:39 INFO  time: compiled comp3000-ass3nosyn in 0.44s
+2020.10.25 17:22:59 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:22:59 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.25 17:23:07 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:23:07 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.25 17:23:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:23:24 INFO  time: compiled comp3000-ass3nosyn in 0.15s
+2020.10.25 17:23:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:23:33 INFO  time: compiled comp3000-ass3nosyn in 0.49s
+2020.10.25 17:24:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:24:49 INFO  time: compiled comp3000-ass3nosyn in 0.33s
+2020.10.25 17:25:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:25:33 INFO  time: compiled comp3000-ass3nosyn in 0.34s
+2020.10.25 17:25:43 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:25:43 INFO  time: compiled comp3000-ass3nosyn in 0.3s
+2020.10.25 17:26:09 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:26:09 INFO  time: compiled comp3000-ass3nosyn in 0.44s
+2020.10.25 17:26:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:26:17 INFO  time: compiled comp3000-ass3nosyn in 0.44s
+2020.10.25 17:26:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:26:24 INFO  time: compiled comp3000-ass3nosyn in 0.31s
+2020.10.25 17:26:33 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:26:33 INFO  time: compiled comp3000-ass3nosyn in 0.26s
+2020.10.25 17:30:28 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:30:28 INFO  time: compiled comp3000-ass3nosyn in 0.29s
+2020.10.25 17:30:46 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:30:46 INFO  time: compiled comp3000-ass3nosyn in 0.25s
+2020.10.25 17:30:55 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:30:55 INFO  time: compiled comp3000-ass3nosyn in 0.45s
+2020.10.25 17:31:10 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:31:10 INFO  time: compiled comp3000-ass3nosyn in 0.29s
+2020.10.25 17:35:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:35:24 INFO  time: compiled comp3000-ass3nosyn in 32ms
+2020.10.25 17:35:32 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:35:32 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.25 17:35:44 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:35:44 INFO  time: compiled comp3000-ass3nosyn in 88ms
+2020.10.25 17:36:09 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:36:09 INFO  time: compiled comp3000-ass3nosyn in 0.33s
+something's wrong: no file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.BlockExp]RangePosition(file:///home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/SyntaxAnalysis.scala, 1797, 1797, 1820)
+2020.10.25 17:40:45 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:40:45 INFO  time: compiled comp3000-ass3nosyn in 0.32s
+2020.10.25 17:41:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:41:01 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+2020.10.25 17:41:53 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:41:53 INFO  time: compiled comp3000-ass3nosyn in 0.28s
+2020.10.25 17:45:57 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:45:57 INFO  time: compiled comp3000-ass3nosyn in 0.52s
+2020.10.25 17:54:41 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:54:41 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+2020.10.25 17:57:02 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:57:02 INFO  time: compiled comp3000-ass3nosyn in 0.22s
+Oct. 25, 2020 5:57:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2299
+2020.10.25 17:58:20 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:58:20 INFO  time: compiled comp3000-ass3nosyn in 0.29s
+2020.10.25 17:58:30 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 17:58:30 INFO  time: compiled comp3000-ass3nosyn in 0.27s
+2020.10.25 18:26:31 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 18:26:31 INFO  time: compiled comp3000-ass3nosyn in 67ms
+2020.10.25 19:29:25 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:29:25 INFO  time: compiled comp3000-ass3nosyn in 0.18s
+2020.10.25 19:30:19 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:30:19 INFO  time: compiled comp3000-ass3nosyn in 0.24s
+2020.10.25 19:30:32 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:30:32 INFO  time: compiled comp3000-ass3nosyn in 0.38s
+2020.10.25 19:30:49 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:30:49 INFO  time: compiled comp3000-ass3nosyn in 0.41s
+2020.10.25 19:31:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:31:17 INFO  time: compiled comp3000-ass3nosyn in 0.22s
+2020.10.25 19:32:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:32:17 INFO  time: compiled comp3000-ass3nosyn in 0.69s
+2020.10.25 19:32:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:32:50 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.25 19:33:07 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:33:07 INFO  time: compiled comp3000-ass3nosyn in 0.28s
+2020.10.25 19:33:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:33:17 INFO  time: compiled comp3000-ass3nosyn in 0.27s
+2020.10.25 19:33:36 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:33:36 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.25 19:34:02 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:34:02 INFO  time: compiled comp3000-ass3nosyn in 0.18s
+Oct. 25, 2020 7:36:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2840
+2020.10.25 19:36:56 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:36:56 INFO  time: compiled comp3000-ass3nosyn in 0.29s
+2020.10.25 19:37:17 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:37:17 INFO  time: compiled comp3000-ass3nosyn in 0.29s
+2020.10.25 19:38:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:38:24 INFO  time: compiled comp3000-ass3nosyn in 79ms
+2020.10.25 19:38:29 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:38:29 INFO  time: compiled comp3000-ass3nosyn in 0.17s
+2020.10.25 19:43:42 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:43:42 INFO  time: compiled comp3000-ass3nosyn in 0.19s
+2020.10.25 19:46:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:46:18 INFO  time: compiled comp3000-ass3nosyn in 0.28s
+2020.10.25 19:47:54 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:47:54 INFO  time: compiled comp3000-ass3nosyn in 0.3s
+2020.10.25 19:49:51 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:49:51 INFO  time: compiled comp3000-ass3nosyn in 0.2s
+2020.10.25 19:50:32 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:50:32 INFO  time: compiled comp3000-ass3nosyn in 0.23s
+Oct. 25, 2020 7:50:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3173
+2020.10.25 19:50:43 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:50:43 INFO  time: compiled comp3000-ass3nosyn in 0.17s
+2020.10.25 19:52:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:52:01 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.25 19:52:40 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:52:40 INFO  time: compiled comp3000-ass3nosyn in 0.31s
+2020.10.25 19:52:46 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:52:46 INFO  time: compiled comp3000-ass3nosyn in 0.27s
+2020.10.25 19:52:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:52:47 INFO  time: compiled comp3000-ass3nosyn in 0.25s
+2020.10.25 19:58:13 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 19:58:13 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.25 20:00:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:00:18 INFO  time: compiled comp3000-ass3nosyn in 0.13s
+2020.10.25 20:00:30 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:00:30 INFO  time: compiled comp3000-ass3nosyn in 74ms
+2020.10.25 20:01:53 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:01:53 INFO  time: compiled comp3000-ass3nosyn in 83ms
+2020.10.25 20:02:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:02:01 INFO  time: compiled comp3000-ass3nosyn in 0.12s
+2020.10.25 20:02:20 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:02:20 INFO  time: compiled comp3000-ass3nosyn in 37ms
+2020.10.25 20:02:24 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:02:24 INFO  time: compiled comp3000-ass3nosyn in 33ms
+2020.10.25 20:02:35 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:02:35 INFO  time: compiled comp3000-ass3nosyn in 25ms
+2020.10.25 20:02:43 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:02:43 INFO  time: compiled comp3000-ass3nosyn in 41ms
+2020.10.25 20:02:47 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:02:47 INFO  time: compiled comp3000-ass3nosyn in 33ms
+2020.10.25 20:02:57 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:02:57 INFO  time: compiled comp3000-ass3nosyn in 36ms
+2020.10.25 20:03:01 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:03:01 INFO  time: compiled comp3000-ass3nosyn in 31ms
+2020.10.25 20:03:22 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:03:22 INFO  time: compiled comp3000-ass3nosyn in 23ms
+2020.10.25 20:03:36 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 20:03:36 INFO  time: compiled comp3000-ass3nosyn in 94ms
+2020.10.25 21:00:12 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 21:00:12 INFO  time: compiled comp3000-ass3nosyn in 0.41s
+2020.10.25 21:00:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 21:00:50 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.25 21:01:08 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 21:01:08 INFO  time: compiled comp3000-ass3nosyn in 0.15s
+2020.10.25 21:01:21 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 21:01:21 INFO  time: compiled comp3000-ass3nosyn in 0.16s
+2020.10.25 21:02:18 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 21:02:18 INFO  time: compiled comp3000-ass3nosyn in 0.22s
+Oct. 25, 2020 9:02:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3825
+2020.10.25 21:02:40 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 21:02:40 INFO  time: compiled comp3000-ass3nosyn in 0.41s
+2020.10.25 21:02:50 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 21:02:50 INFO  time: compiled comp3000-ass3nosyn in 0.14s
+2020.10.25 21:02:54 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 21:02:54 INFO  time: compiled comp3000-ass3nosyn in 0.19s
+2020.10.25 21:05:58 INFO  compiling comp3000-ass3nosyn (1 scala source)
+2020.10.25 21:05:58 INFO  time: compiled comp3000-ass3nosyn in 0.19s
+Oct. 25, 2020 9:07:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification

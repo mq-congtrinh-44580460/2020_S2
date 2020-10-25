@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mrrobot1802/repo/2020_S2/COMP3000/comp3000-ass3nosyn/src/main/scala/Translator.scala:131:65: not found: value AppEx[0m
+[0m[[0m[31merror[0m] [0m[0m                                    genall(translateExpression (AppEx(exp, expVal)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

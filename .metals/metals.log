@@ -5,3 +5,12 @@
 2020.10.23 11:18:30 INFO  started: Metals version 0.9.4 in workspace '/home/mrrobot1802/repo/2020_S2' for client vscode.
 2020.10.23 11:18:32 INFO  time: initialize in 1.99s
 2020.10.23 11:18:33 WARN  no build tool detected in workspace '/home/mrrobot1802/repo/2020_S2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.23 13:16:39 INFO  shutting down Metals
+2020.10.23 17:38:32 INFO  started: Metals version 0.9.4 in workspace '/home/mrrobot1802/repo/2020_S2' for client vscode.
+2020.10.23 17:38:33 INFO  time: initialize in 0.89s
+2020.10.23 17:38:33 WARN  no build tool detected in workspace '/home/mrrobot1802/repo/2020_S2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.23 18:41:44 INFO  shutting down Metals
+2020.10.23 19:33:27 INFO  started: Metals version 0.9.4 in workspace '/home/mrrobot1802/repo/2020_S2' for client vscode.
+2020.10.23 19:33:28 INFO  time: initialize in 1.51s
+2020.10.23 19:33:29 WARN  no build tool detected in workspace '/home/mrrobot1802/repo/2020_S2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.23 19:33:46 INFO  shutting down Metals

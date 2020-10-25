@@ -33,3 +33,43 @@ test
 exit
 clean
 exit
+run test/simple.fun
+run test/nesting.fun
+run test/block.fun
+run test/function.fun
+run test/simple.fun
+run test/function.fun
+run test/simple.fun
+run test/function.fun
+run test/block.fun
+run test/nesting.fun
+test
+run test/function.fun
+run test/block.fun
+run test/simple.fun
+run test/block.fun
+run test/test.fun
+run test/block.fun
+run test/test.fun
+run test/block.fun
+compile
+run test/block.fun
+exit()
+exit
+run test/block.fun
+run test/simple.fun
+run test/block.fun
+run test/function.fun
+run test/simple.fun
+run test/function.fun
+run test/block.fun
+run test/function.fun
+run test/block.fun
+run test/function.fun
+run test/block.fun
+run test/function.fun
+run test/block.fun
+run test/function.fun
+run test/block.fun
+run test/nesting.fun
+run test/test.fun

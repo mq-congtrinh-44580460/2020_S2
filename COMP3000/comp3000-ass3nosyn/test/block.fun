@@ -1,5 +1,5 @@
 {
-   val a = 5
-   val b = a + 1
-   a * b
+   val a = 3 
+   val b = 4
+   a + b
 }
